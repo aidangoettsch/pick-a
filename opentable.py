@@ -1,43 +1,23 @@
+import datetime
 import requests
 import json
 from bs4 import BeautifulSoup, NavigableString
 
-from reservation_data import RestaurantResult
+from reservation_data import ReservationSlot, RestaurantResult
 
 
-def pretty_print_POST(req):
-    """
-    At this point it is completely built and ready
-    to be fired; it is "prepared".
+def parse_opentable_slot(slot: dict, base_time: datetime.datetime) -> ReservationSlot | None:
+    if not slot.get("isAvailable", False):
+        return None
+    
+    offset_minutes = slot["timeOffsetMinutes"]
+    slot_time = base_time + datetime.timedelta(minutes=offset_minutes)
+    seating_type = slot.get("type", "Standard")
+    
+    return ReservationSlot(time=slot_time, seating_type=seating_type)
 
-    However pay attention at the formatting used in 
-    this function because it is programmed to be pretty 
-    printed and may differ from the actual request.
-    """
-    print('{}\n{}\r\n{}\r\n\r\n{}'.format(
-        '-----------START-----------',
-        req.method + ' ' + req.url,
-        '\r\n'.join('{}: {}'.format(k, v) for k, v in req.headers.items()),
-        req.body,
-    ))
 
-def find_availability_opentable(opentable_url: str, date: str, party_size: int) -> RestaurantResult:
-    restaurant_page_res = requests.request("GET", opentable_url, timeout=5, headers={
-                                               "User-Agent": "curl/7.74.0"
-                                           })
-    restaurant_page = BeautifulSoup(restaurant_page_res.text, features="html.parser")
-    json_data_tag = restaurant_page.find(id="primary-window-vars")
-
-    if json_data_tag is None or type(json_data_tag) is NavigableString:
-        raise ValueError(f"Could not find JSON data in opentable page {opentable_url}")
-
-    if json_data_tag.string is None:
-        raise ValueError(f"Could not find JSON data in opentable page {opentable_url}")
-
-    json_data = json.loads(json_data_tag.string)
-    csrf_token = json_data["windowVariables"]["__CSRF_TOKEN__"]
-    restaurant_id = int(json_data["windowVariables"]["__OT_GA_DATA__"]["cd6"])
-
+def find_availability_opentable_from_id(restaurant_id: int, date: str, party_size: int, csrf_token: str) -> RestaurantResult:
     req_body = {
   "operationName": "RestaurantsAvailability",
   "variables": {
@@ -58,6 +38,10 @@ def find_availability_opentable(opentable_url: str, date: str, party_size: int) 
     ],
     "date": date,
     "time": "18:00",
+    "backwardMinutes": 1080,
+    "backwardTimeslots": 72,
+    "forwardMinutes": 600,
+    "forwardTimeslots": 72,
     "partySize": party_size,
     "databaseRegion": "NA",
     "restaurantAvailabilityTokens": [],
@@ -79,10 +63,40 @@ def find_availability_opentable(opentable_url: str, date: str, party_size: int) 
                          "x-csrf-token": csrf_token,
                          "x-query-timeout": "5500",
                          "content-type": "application/json",
-                         "Referer": opentable_url,
                      }, json=req_body, timeout=5)
 
     data = res.json()["data"]
-    slots = data["availability"][0]["slots"]
-    print()
+    
+    # Base time is 18:00 on the requested date
+    base_time = datetime.datetime.fromisoformat(f"{date}T18:00:00")
+    
+    availability_days = data["availability"][0]["availabilityDays"]
+    raw_slots = availability_days[0]["slots"] if availability_days else []
+    
+    parsed_slots = []
+    for slot in raw_slots:
+        parsed = parse_opentable_slot(slot, base_time)
+        if parsed is not None:
+            parsed_slots.append(parsed)
+    
+    return RestaurantResult(slots=parsed_slots)
+
+
+def find_availability_opentable(opentable_url: str, date: str, party_size: int) -> RestaurantResult:
+    restaurant_page_res = requests.request("GET", opentable_url, timeout=5, headers={
+                                               "User-Agent": "curl/7.74.0"
+                                           })
+    restaurant_page = BeautifulSoup(restaurant_page_res.text, features="html.parser")
+    json_data_tag = restaurant_page.find(id="primary-window-vars")
+
+    if json_data_tag is None or type(json_data_tag) is NavigableString:
+        raise ValueError(f"Could not find JSON data in opentable page {opentable_url}")
+
+    if json_data_tag.string is None:
+        raise ValueError(f"Could not find JSON data in opentable page {opentable_url}")
+
+    json_data = json.loads(json_data_tag.string)
+    csrf_token = json_data["windowVariables"]["__CSRF_TOKEN__"]
+    restaurant_id = int(json_data["windowVariables"]["__OT_GA_DATA__"]["cd6"])
+    return find_availability_opentable_from_id(restaurant_id, date, party_size, csrf_token)
 

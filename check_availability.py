@@ -4,12 +4,16 @@ from urllib.parse import urlparse
 from reservation_data import RestaurantResult
 
 from resy import find_availability_resy
+from opentable import find_availability_opentable
 
 def find_availability(url: str, date: str, party_size: int) -> RestaurantResult:
     url_parsed = urlparse(url)
 
     if url_parsed.hostname.endswith("resy.com"):
         return find_availability_resy(url, date, party_size)
+
+    if url_parsed.hostname.endswith("opentable.com"):
+        return find_availability_opentable(url, date, party_size)
 
     raise ValueError(f"Unsupported reservation platform {url_parsed.hostname}")
 
