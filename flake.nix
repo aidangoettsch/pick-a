@@ -58,8 +58,6 @@
               wantedBy = [ "multi-user.target" ];
               after = [ "network.target" ];
 
-              environment.PORT = toString cfg.port;
-
               serviceConfig = {
                 Type = "simple";
                 ExecStart = "${cfg.package}/bin/pick-a-server";
@@ -176,7 +174,7 @@
               --chdir "$out/lib/pick-a" \
               --set PYTHONPATH "$out/lib/pick-a" \
               --set STATIC_FOLDER "$out/lib/pick-a/static" \
-              --add-flags "-w 4 -b 0.0.0.0:\${PORT:-5000} server:app"
+              --add-flags "-w 4 -b 0.0.0.0:${toString cfg.port} server:app"
 
             runHook postInstall
           '';
