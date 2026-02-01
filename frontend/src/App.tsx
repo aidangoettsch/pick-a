@@ -50,7 +50,7 @@ function App() {
   const loadRestaurants = useCallback(async () => {
     const params = new URLSearchParams();
     if (debouncedSearch) params.set('search', debouncedSearch);
-    if (neighborhoods) params.set('neighborhoods', neighborhoods);
+    neighborhoods.forEach(n => params.append('neighborhoods', n));
     if (cuisine) params.set('tag', cuisine);
     // Send multiple meal_type params for multi-select
     mealTypes.forEach(mt => params.append('meal_type', mt));
