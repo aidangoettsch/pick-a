@@ -203,6 +203,7 @@ def reservation_option_to_string(reservation_option: ReservationOption | None) -
 @dataclasses.dataclass
 class Restaurant:
     name: str
+    borough: str
     neighborhood: str
     tags: list[str]
     meal_types: list[str]
@@ -268,6 +269,7 @@ def parse_restaurants(data: list[dict]) -> list[Restaurant]:
         restaurant = Restaurant(
             name=item["shortTitle"],
             neighborhood=item["neighborhood"],
+            borough=item["borough"],
             tags=item["tags"],
             meal_types=item["mealTypes"],
             reservation_option=reservation_option,
@@ -296,6 +298,7 @@ def main():
     print(f"=== Restaurants ({len(restaurants)}) ===\n")
     for r in restaurants:
         print(f"  {r.name}")
+        print(f"    Borough: {r.borough}")
         print(f"    Neighborhood: {r.neighborhood}")
         print(f"    Tags: {', '.join(r.tags)}")
         print(f"    Meal types: {', '.join(r.meal_types)}")

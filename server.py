@@ -20,11 +20,13 @@ with open(DATA_DIR / "restaurant_week_data.json", "r") as f:
 # Extract unique values for filter options
 def get_filter_options():
     neighborhoods = set()
+    boroughs = set()
     tags = set()
     meal_types = set()
     
     for r in RESTAURANTS:
         neighborhoods.add(r.get("neighborhood", ""))
+        boroughs.add(r.get("borough", ""))
         for tag in r.get("tags", []):
             tags.add(tag)
         for meal in r.get("meal_types", []):
@@ -32,6 +34,7 @@ def get_filter_options():
     
     return {
         "neighborhoods": sorted(list(neighborhoods)),
+        "boroughs": sorted(list(boroughs)),
         "tags": sorted(list(tags)),
         "meal_types": sorted(list(meal_types))
     }
@@ -49,6 +52,7 @@ def get_filters():
 def get_restaurants():
     """Return filtered restaurant list."""
     neighborhoods = request.args.getlist("neighborhoods")
+    boroughs = request.args.getlist("boroughs")
     tag = request.args.get("tag", "").strip()
     meal_types = request.args.getlist("meal_type")
     search = request.args.get("search", "").strip().lower()
@@ -56,7 +60,10 @@ def get_restaurants():
     results = RESTAURANTS
     
     if neighborhoods:
-        results = [r for r in results if any(mt in r.get("neighborhood", []) for mt in neighborhoods)]
+        results = [r for r in results if any(n in r.get("neighborhood", []) for n in neighborhoods)]
+        
+    if boroughs:
+        results = [r for r in results if any(b in r.get("borough", []) for b in boroughs)]
     
     if tag:
         results = [r for r in results if tag in r.get("tags", [])]

@@ -1,6 +1,7 @@
 [
   {
     "name": "Havana Central",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Cuban"
@@ -18,6 +19,7 @@
   },
   {
     "name": "Marsanne",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Mediterranean"
@@ -35,6 +37,7 @@
   },
   {
     "name": "Churrascaria Plataforma Brazilian Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Brazilian",
@@ -51,6 +54,7 @@
   },
   {
     "name": "Gaia",
+    "borough": "Manhattan",
     "neighborhood": "Herald Square",
     "tags": [
       "Mediterranean"
@@ -68,6 +72,7 @@
   },
   {
     "name": "Tavern on the Green",
+    "borough": "Manhattan",
     "neighborhood": "Central Park",
     "tags": [
       "American (New)"
@@ -83,6 +88,7 @@
   },
   {
     "name": "Socarrat Paella Bar - Chelsea",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Spanish"
@@ -98,6 +104,7 @@
   },
   {
     "name": "Jazba",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Indian"
@@ -115,6 +122,7 @@
   },
   {
     "name": "Hudson VU",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "American (New)"
@@ -129,6 +137,7 @@
   },
   {
     "name": "Kings of Kobe",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Steakhouse"
@@ -145,6 +154,7 @@
   },
   {
     "name": "Delmonico's",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Steakhouse"
@@ -162,6 +172,7 @@
   },
   {
     "name": "Da Andrea - Chelsea",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Italian"
@@ -178,6 +189,7 @@
   },
   {
     "name": "The Uptown Garrison",
+    "borough": "Manhattan",
     "neighborhood": "Washington Heights",
     "tags": [
       "American (New)",
@@ -193,6 +205,7 @@
   },
   {
     "name": "Limusina",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Mexican"
@@ -207,6 +220,7 @@
   },
   {
     "name": "RA Sushi Bar Restaurant \u2013 Times Square",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Japanese / Sushi"
@@ -224,6 +238,7 @@
   },
   {
     "name": "Mr Chow New York - Tribeca",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "Chinese"
@@ -239,6 +254,7 @@
   },
   {
     "name": "The Half Pint",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "Gastropub"
@@ -254,6 +270,7 @@
   },
   {
     "name": "Obao Hell's Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Thai",
@@ -271,6 +288,7 @@
   },
   {
     "name": "La Contenta Oeste",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Mexican"
@@ -285,6 +303,7 @@
   },
   {
     "name": "El\u00e9a",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Greek"
@@ -301,6 +320,7 @@
   },
   {
     "name": "Olio e Pi\u00f9 Bryant Park",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -315,6 +335,7 @@
   },
   {
     "name": "Nudibranch",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Korean",
@@ -331,6 +352,7 @@
   },
   {
     "name": "Chez Josephine",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "French"
@@ -348,6 +370,7 @@
   },
   {
     "name": "Tucci",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "Italian"
@@ -363,6 +386,7 @@
   },
   {
     "name": "Miriam West Village",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Mediterranean"
@@ -378,6 +402,7 @@
   },
   {
     "name": "Sushi of Gari 46",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Japanese / Sushi"
@@ -395,6 +420,7 @@
   },
   {
     "name": "Maison Pickle",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "American (Traditional)",
@@ -412,6 +438,7 @@
   },
   {
     "name": "Coqodaq",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Korean"
@@ -426,6 +453,7 @@
   },
   {
     "name": "Pinky Swear",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "American (New)",
@@ -441,6 +469,7 @@
   },
   {
     "name": "Le Fleur Rouge",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "Chinese"
@@ -456,6 +485,7 @@
   },
   {
     "name": "Passerine",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Indian"
@@ -470,6 +500,7 @@
   },
   {
     "name": "Atrio Wine Bar & Restaurant",
+    "borough": "Manhattan",
     "neighborhood": "Battery Park City",
     "tags": [
       "American (New)"
@@ -485,6 +516,7 @@
   },
   {
     "name": "Prohibition",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "American (New)"
@@ -500,6 +532,7 @@
   },
   {
     "name": "Limani",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Mediterranean",
@@ -518,6 +551,7 @@
   },
   {
     "name": "Alta Calidad",
+    "borough": "Brooklyn",
     "neighborhood": "Prospect Heights",
     "tags": [
       "Mexican"
@@ -534,6 +568,7 @@
   },
   {
     "name": "Stone Park Cafe",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "American (New)"
@@ -548,6 +583,7 @@
   },
   {
     "name": "Berimbau - Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Herald Square",
     "tags": [
       "Brazilian"
@@ -563,6 +599,7 @@
   },
   {
     "name": "Hard Rock Cafe",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (Traditional)"
@@ -580,6 +617,7 @@
   },
   {
     "name": "Tarallucci e Vino - Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -596,6 +634,7 @@
   },
   {
     "name": "Felice 64",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -613,6 +652,7 @@
   },
   {
     "name": "Dante",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "Italian"
@@ -627,6 +667,7 @@
   },
   {
     "name": "ABC Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "American (New)"
@@ -643,6 +684,7 @@
   },
   {
     "name": "So & So's",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "American (New)",
@@ -658,6 +700,7 @@
   },
   {
     "name": "Kyma",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Greek",
@@ -675,6 +718,7 @@
   },
   {
     "name": "Tudor City Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Steakhouse",
@@ -692,6 +736,7 @@
   },
   {
     "name": "Boucherie Union Square",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "French"
@@ -707,6 +752,7 @@
   },
   {
     "name": "La Pizza & La Pasta",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Italian"
@@ -722,6 +768,7 @@
   },
   {
     "name": "Roey's",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian"
@@ -737,6 +784,7 @@
   },
   {
     "name": "Catria Cucina and Bar",
+    "borough": "Manhattan",
     "neighborhood": "Hudson Yards",
     "tags": [
       "Italian"
@@ -754,6 +802,7 @@
   },
   {
     "name": "Stella 34 Trattoria",
+    "borough": "Manhattan",
     "neighborhood": "Herald Square",
     "tags": [
       "Italian"
@@ -771,6 +820,7 @@
   },
   {
     "name": "J\u2019s On The Bay",
+    "borough": "Staten Island",
     "neighborhood": "Rosebank",
     "tags": [
       "American (New)"
@@ -788,6 +838,7 @@
   },
   {
     "name": "BOTA Supper Club",
+    "borough": "Staten Island",
     "neighborhood": "St. George",
     "tags": [
       "American (New)"
@@ -803,6 +854,7 @@
   },
   {
     "name": "Anton\u2019s",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "American (New)",
@@ -819,6 +871,7 @@
   },
   {
     "name": "Koi New York",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Japanese / Sushi"
@@ -834,6 +887,7 @@
   },
   {
     "name": "Broadway Lounge",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (New)",
@@ -849,6 +903,7 @@
   },
   {
     "name": "Liebman\u2019s Deli",
+    "borough": "The Bronx",
     "neighborhood": "Riverdale",
     "tags": [
       "Delicatessen",
@@ -866,6 +921,7 @@
   },
   {
     "name": "Nougatine at Jean-Georges",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "American (New)"
@@ -883,6 +939,7 @@
   },
   {
     "name": "Haven Rooftop",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (New)"
@@ -900,6 +957,7 @@
   },
   {
     "name": "Mission Ceviche - Upper East Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Peruvian"
@@ -917,6 +975,7 @@
   },
   {
     "name": "Morandi",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian"
@@ -932,6 +991,7 @@
   },
   {
     "name": "Chez Nick",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "American (New)"
@@ -946,6 +1006,7 @@
   },
   {
     "name": "Jing Li",
+    "borough": "Queens",
     "neighborhood": "Long Island City",
     "tags": [
       "Chinese"
@@ -963,6 +1024,7 @@
   },
   {
     "name": "Tuscan Hills",
+    "borough": "Queens",
     "neighborhood": "Forest Hills",
     "tags": [
       "Italian"
@@ -980,6 +1042,7 @@
   },
   {
     "name": "Manuela",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "American (New)"
@@ -997,6 +1060,7 @@
   },
   {
     "name": "Crave Fishbar - Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Seafood"
@@ -1012,6 +1076,7 @@
   },
   {
     "name": "Club A Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Steakhouse"
@@ -1027,6 +1092,7 @@
   },
   {
     "name": "Robert",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (New)"
@@ -1044,6 +1110,7 @@
   },
   {
     "name": "Gallaghers Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Steakhouse"
@@ -1059,6 +1126,7 @@
   },
   {
     "name": "The Dutch",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "American (New)"
@@ -1075,6 +1143,7 @@
   },
   {
     "name": "DiWine",
+    "borough": "Queens",
     "neighborhood": "Astoria",
     "tags": [
       "American (New)"
@@ -1089,6 +1158,7 @@
   },
   {
     "name": "Bocca Di Bacco\u2014Theatre District",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Italian"
@@ -1106,6 +1176,7 @@
   },
   {
     "name": "Le B.",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "French",
@@ -1123,6 +1194,7 @@
   },
   {
     "name": "Hupo",
+    "borough": "Queens",
     "neighborhood": "Long Island City",
     "tags": [
       "Chinese"
@@ -1138,6 +1210,7 @@
   },
   {
     "name": "Twenty-Sevens",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (New)"
@@ -1151,6 +1224,7 @@
   },
   {
     "name": "Qanoon",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Middle Eastern",
@@ -1168,6 +1242,7 @@
   },
   {
     "name": "The Dynamo Room",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Steakhouse",
@@ -1183,6 +1258,7 @@
   },
   {
     "name": "Rivercrest",
+    "borough": "Queens",
     "neighborhood": "Astoria",
     "tags": [
       "American (New)"
@@ -1196,6 +1272,7 @@
   },
   {
     "name": "Felice 83",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -1213,6 +1290,7 @@
   },
   {
     "name": "Osteria 57",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "Italian",
@@ -1233,6 +1311,7 @@
   },
   {
     "name": "Yakiniku Futago",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Steakhouse",
@@ -1251,6 +1330,7 @@
   },
   {
     "name": "Cebu Bar & Bistro",
+    "borough": "Brooklyn",
     "neighborhood": "Bay Ridge",
     "tags": [
       "American (New)"
@@ -1266,6 +1346,7 @@
   },
   {
     "name": "Il Nonno",
+    "borough": "Queens",
     "neighborhood": "Astoria",
     "tags": [
       "Italian"
@@ -1282,6 +1363,7 @@
   },
   {
     "name": "Barano",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Italian"
@@ -1297,6 +1379,7 @@
   },
   {
     "name": "Trapizzino",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "Italian"
@@ -1314,6 +1397,7 @@
   },
   {
     "name": "'ino",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Italian"
@@ -1327,6 +1411,7 @@
   },
   {
     "name": "Manhatta",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "American (New)"
@@ -1342,6 +1427,7 @@
   },
   {
     "name": "Antica Pesa",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Italian"
@@ -1357,6 +1443,7 @@
   },
   {
     "name": "The Flatiron Room - Murray Hill",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "American (New)"
@@ -1372,6 +1459,7 @@
   },
   {
     "name": "Kellari Taverna",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Greek"
@@ -1388,6 +1476,7 @@
   },
   {
     "name": "Oceana",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Seafood"
@@ -1402,6 +1491,7 @@
   },
   {
     "name": "Chela",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "Mexican"
@@ -1419,6 +1509,7 @@
   },
   {
     "name": "Mezze on the River",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "American (Traditional)"
@@ -1434,6 +1525,7 @@
   },
   {
     "name": "The Quimby",
+    "borough": "Queens",
     "neighborhood": "Jamaica",
     "tags": [
       "American (New)"
@@ -1451,6 +1543,7 @@
   },
   {
     "name": "Smith & Wollensky",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Steakhouse"
@@ -1465,6 +1558,7 @@
   },
   {
     "name": "Red Hook Lobster Pound",
+    "borough": "Brooklyn",
     "neighborhood": "Red Hook",
     "tags": [
       "Seafood"
@@ -1482,6 +1576,7 @@
   },
   {
     "name": "The Wolfe",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "American (New)",
@@ -1497,6 +1592,7 @@
   },
   {
     "name": "Stout NYC Penn Station",
+    "borough": "Manhattan",
     "neighborhood": "Herald Square",
     "tags": [
       "American (Traditional)",
@@ -1511,6 +1607,7 @@
   },
   {
     "name": "Vin Sur Vingt - E. 51st St.",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "French"
@@ -1526,6 +1623,7 @@
   },
   {
     "name": "Beauty & Essex",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "American (New)",
@@ -1543,6 +1641,7 @@
   },
   {
     "name": "La Voglia",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -1559,6 +1658,7 @@
   },
   {
     "name": "Mito - Bayside",
+    "borough": "Queens",
     "neighborhood": "Bayside",
     "tags": [
       "Asian Fusion"
@@ -1576,6 +1676,7 @@
   },
   {
     "name": "When in Bangkok",
+    "borough": "Queens",
     "neighborhood": "Flushing",
     "tags": [
       "Thai"
@@ -1593,6 +1694,7 @@
   },
   {
     "name": "Strip House Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse",
@@ -1610,6 +1712,7 @@
   },
   {
     "name": "Pastai",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Italian"
@@ -1624,6 +1727,7 @@
   },
   {
     "name": "Sushi Ann",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Japanese / Sushi"
@@ -1640,6 +1744,7 @@
   },
   {
     "name": "Mae Mae Cafe & Plant Shop",
+    "borough": "The Bronx",
     "neighborhood": "Mott Haven",
     "tags": [
       "Eclectic",
@@ -1655,6 +1760,7 @@
   },
   {
     "name": "Le Gratin",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "French"
@@ -1671,6 +1777,7 @@
   },
   {
     "name": "Lele's Roman",
+    "borough": "Brooklyn",
     "neighborhood": "Boerum Hill",
     "tags": [
       "Italian"
@@ -1687,6 +1794,7 @@
   },
   {
     "name": "Alice",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian",
@@ -1704,6 +1812,7 @@
   },
   {
     "name": "Felice Montague",
+    "borough": "Brooklyn",
     "neighborhood": "Brooklyn Heights",
     "tags": [
       "Italian"
@@ -1721,6 +1830,7 @@
   },
   {
     "name": "Nar Restaurant",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Mediterranean",
@@ -1739,6 +1849,7 @@
   },
   {
     "name": "The Palm - Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Steakhouse",
@@ -1757,6 +1868,7 @@
   },
   {
     "name": "Neir's Tavern",
+    "borough": "Queens",
     "neighborhood": "Woodhaven",
     "tags": [
       "American (Traditional)"
@@ -1773,6 +1885,7 @@
   },
   {
     "name": "Lure Fishbar",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Seafood"
@@ -1789,6 +1902,7 @@
   },
   {
     "name": "Becco",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Italian"
@@ -1804,6 +1918,7 @@
   },
   {
     "name": "Quality Bistro",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "French",
@@ -1820,6 +1935,7 @@
   },
   {
     "name": "Bar Sprezzatura",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Italian"
@@ -1836,6 +1952,7 @@
   },
   {
     "name": "House of the Red Pearl",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "Chinese"
@@ -1851,6 +1968,7 @@
   },
   {
     "name": "Jacques Brasserie",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "French"
@@ -1868,6 +1986,7 @@
   },
   {
     "name": "Morgan's Brooklyn Barbecue",
+    "borough": "Brooklyn",
     "neighborhood": "Prospect Heights",
     "tags": [
       "Barbecue"
@@ -1884,6 +2003,7 @@
   },
   {
     "name": "Wayward Fare",
+    "borough": "Brooklyn",
     "neighborhood": "Prospect Heights",
     "tags": [
       "Italian",
@@ -1900,6 +2020,7 @@
   },
   {
     "name": "Dirty French",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "French"
@@ -1915,6 +2036,7 @@
   },
   {
     "name": "Indochine",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "Vietnamese",
@@ -1930,6 +2052,7 @@
   },
   {
     "name": "Jue Lan Club",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Chinese"
@@ -1947,6 +2070,7 @@
   },
   {
     "name": "Casa Brazilian",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "Brazilian"
@@ -1962,6 +2086,7 @@
   },
   {
     "name": "Copinette",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (New)"
@@ -1978,6 +2103,7 @@
   },
   {
     "name": "Marlow Bistro",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Mediterranean"
@@ -1993,6 +2119,7 @@
   },
   {
     "name": "Momoya - Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Japanese / Sushi"
@@ -2010,6 +2137,7 @@
   },
   {
     "name": "Wagamama - Murray Hill",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Asian Fusion",
@@ -2026,6 +2154,7 @@
   },
   {
     "name": "Vino &... - Eataly NYC Downtown",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Italian"
@@ -2041,6 +2170,7 @@
   },
   {
     "name": "Fandi Mata",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Mediterranean",
@@ -2058,6 +2188,7 @@
   },
   {
     "name": "Reyna",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "Mediterranean",
@@ -2075,6 +2206,7 @@
   },
   {
     "name": "Sant Ambroeus\u2014Brookfield",
+    "borough": "Manhattan",
     "neighborhood": "Battery Park City",
     "tags": [
       "Italian"
@@ -2090,6 +2222,7 @@
   },
   {
     "name": "Wagamama - Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Asian Fusion",
@@ -2106,6 +2239,7 @@
   },
   {
     "name": "Kubeh",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "Middle Eastern"
@@ -2122,6 +2256,7 @@
   },
   {
     "name": "Baci & Abbracci",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Italian"
@@ -2137,6 +2272,7 @@
   },
   {
     "name": "Rosemary's West Village",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian"
@@ -2152,6 +2288,7 @@
   },
   {
     "name": "Oda House - Manhattan",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Eastern European"
@@ -2168,6 +2305,7 @@
   },
   {
     "name": "Sake No Hana",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "Japanese / Sushi"
@@ -2183,6 +2321,7 @@
   },
   {
     "name": "Akoya",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Japanese / Sushi"
@@ -2198,6 +2337,7 @@
   },
   {
     "name": "Zuma",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Japanese / Sushi"
@@ -2214,6 +2354,7 @@
   },
   {
     "name": "Tommy Bahama Restaurant\u2013Bar\u2013Store",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (New)",
@@ -2230,6 +2371,7 @@
   },
   {
     "name": "Molyvos",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Greek"
@@ -2247,6 +2389,7 @@
   },
   {
     "name": "La Baraka",
+    "borough": "Queens",
     "neighborhood": "Little Neck",
     "tags": [
       "French"
@@ -2262,6 +2405,7 @@
   },
   {
     "name": "Sotto la Luna",
+    "borough": "Queens",
     "neighborhood": "Astoria",
     "tags": [
       "Italian",
@@ -2279,6 +2423,7 @@
   },
   {
     "name": "Pink Taco",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Mexican"
@@ -2296,6 +2441,7 @@
   },
   {
     "name": "Hunt & Fish Club NYC",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Steakhouse",
@@ -2312,6 +2458,7 @@
   },
   {
     "name": "Palermo Argentinian Bistro - Gramercy",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Argentinian",
@@ -2328,6 +2475,7 @@
   },
   {
     "name": "Mamo",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Italian"
@@ -2345,6 +2493,7 @@
   },
   {
     "name": "Planet Hollywood New York",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (New)"
@@ -2360,6 +2509,7 @@
   },
   {
     "name": "Marseille",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "French",
@@ -2377,6 +2527,7 @@
   },
   {
     "name": "The Flatiron Room - NoMad",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "American (New)"
@@ -2392,6 +2543,7 @@
   },
   {
     "name": "Kraam",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Thai"
@@ -2409,6 +2561,7 @@
   },
   {
     "name": "Harta",
+    "borough": "Manhattan",
     "neighborhood": "Garment District",
     "tags": [
       "American (New)"
@@ -2426,6 +2579,7 @@
   },
   {
     "name": "Morton's The Steakhouse\u2014Manhattan",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Steakhouse"
@@ -2442,6 +2596,7 @@
   },
   {
     "name": "Sushi Lab Rooftop",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Japanese / Sushi"
@@ -2457,6 +2612,7 @@
   },
   {
     "name": "Monterey",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (New)"
@@ -2472,6 +2628,7 @@
   },
   {
     "name": "Steak Frites Bistro",
+    "borough": "Manhattan",
     "neighborhood": "Garment District",
     "tags": [
       "French"
@@ -2488,6 +2645,7 @@
   },
   {
     "name": "Mr Chow New York - 57th Street",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Chinese"
@@ -2503,6 +2661,7 @@
   },
   {
     "name": "Zero Otto Nove - Flatiron",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Italian"
@@ -2519,6 +2678,7 @@
   },
   {
     "name": "Iris",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Greek"
@@ -2534,6 +2694,7 @@
   },
   {
     "name": "Rosevale Cocktail Room",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "American (New)"
@@ -2549,6 +2710,7 @@
   },
   {
     "name": "Pasta Louise",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "Italian"
@@ -2564,6 +2726,7 @@
   },
   {
     "name": "Perry Street",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "American (New)"
@@ -2579,6 +2742,7 @@
   },
   {
     "name": "Sei Less",
+    "borough": "Manhattan",
     "neighborhood": "Garment District",
     "tags": [
       "Chinese",
@@ -2596,6 +2760,7 @@
   },
   {
     "name": "Crave Fishbar - Upper East Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Seafood"
@@ -2611,6 +2776,7 @@
   },
   {
     "name": "Next Door",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "Japanese / Sushi"
@@ -2625,6 +2791,7 @@
   },
   {
     "name": "Little Chef Little Cafe",
+    "borough": "Queens",
     "neighborhood": "Long Island City",
     "tags": [
       "Filipino"
@@ -2641,6 +2808,7 @@
   },
   {
     "name": "Meadowsweet",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "American (New)",
@@ -2659,6 +2827,7 @@
   },
   {
     "name": "Malii Gramercy",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Thai"
@@ -2676,6 +2845,7 @@
   },
   {
     "name": "Tonchin Brooklyn",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Japanese / Sushi"
@@ -2691,6 +2861,7 @@
   },
   {
     "name": "Carne Mare",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "Steakhouse",
@@ -2707,6 +2878,7 @@
   },
   {
     "name": "Poppy",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "American (New)"
@@ -2723,6 +2895,7 @@
   },
   {
     "name": "Panda Harlem",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "Chinese",
@@ -2739,6 +2912,7 @@
   },
   {
     "name": "Zo\u00ec Mediterranean NoMad",
+    "borough": "Manhattan",
     "neighborhood": "Koreatown",
     "tags": [
       "Mediterranean"
@@ -2756,6 +2930,7 @@
   },
   {
     "name": "Il Fiorista",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Mediterranean"
@@ -2771,6 +2946,7 @@
   },
   {
     "name": "Sagaponack",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Seafood"
@@ -2786,6 +2962,7 @@
   },
   {
     "name": "Oceans",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Seafood"
@@ -2801,6 +2978,7 @@
   },
   {
     "name": "Hav & Mar",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Seafood"
@@ -2816,6 +2994,7 @@
   },
   {
     "name": "Ayza",
+    "borough": "Manhattan",
     "neighborhood": "Koreatown",
     "tags": [
       "American (New)"
@@ -2832,6 +3011,7 @@
   },
   {
     "name": "Pete's Tavern",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "American (Traditional)",
@@ -2849,6 +3029,7 @@
   },
   {
     "name": "Dear Strangers",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "American (New)",
@@ -2866,6 +3047,7 @@
   },
   {
     "name": "Liman",
+    "borough": "Brooklyn",
     "neighborhood": "Coney Island",
     "tags": [
       "Mediterranean",
@@ -2885,6 +3067,7 @@
   },
   {
     "name": "Empell\u00f3n",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Mexican"
@@ -2899,6 +3082,7 @@
   },
   {
     "name": "Fish Cheeks",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "Thai",
@@ -2915,6 +3099,7 @@
   },
   {
     "name": "Ammos Estiatorio - Grand Central",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Mediterranean",
@@ -2931,6 +3116,7 @@
   },
   {
     "name": "Flava of the Bronx",
+    "borough": "The Bronx",
     "neighborhood": "Woodstock",
     "tags": [
       "Caribbean",
@@ -2946,6 +3132,7 @@
   },
   {
     "name": "Calle D\u00e3o - Bryant Park",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Asian Fusion",
@@ -2965,6 +3152,7 @@
   },
   {
     "name": "Empire Steak House - Midtown West",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse",
@@ -2982,6 +3170,7 @@
   },
   {
     "name": "Schilling",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Austrian"
@@ -2997,6 +3186,7 @@
   },
   {
     "name": "La Sirene",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "French"
@@ -3012,6 +3202,7 @@
   },
   {
     "name": "Kashkaval Garden",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Mediterranean"
@@ -3028,6 +3219,7 @@
   },
   {
     "name": "Altesi Ristorante",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -3045,6 +3237,7 @@
   },
   {
     "name": "Hasaki",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Japanese / Sushi"
@@ -3059,6 +3252,7 @@
   },
   {
     "name": "Masseria East",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -3076,6 +3270,7 @@
   },
   {
     "name": "Heritage Grand Bakery",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Mediterranean"
@@ -3092,6 +3287,7 @@
   },
   {
     "name": "Estiatorio Milos",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Seafood",
@@ -3108,6 +3304,7 @@
   },
   {
     "name": "The Dram Shop Bar",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "American (Traditional)",
@@ -3126,6 +3323,7 @@
   },
   {
     "name": "Frenchette",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "French"
@@ -3143,6 +3341,7 @@
   },
   {
     "name": "Barbounia",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Mediterranean"
@@ -3159,6 +3358,7 @@
   },
   {
     "name": "Sereneco",
+    "borough": "Brooklyn",
     "neighborhood": "Greenpoint",
     "tags": [
       "American (New)"
@@ -3174,6 +3374,7 @@
   },
   {
     "name": "Celeste",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -3189,6 +3390,7 @@
   },
   {
     "name": "Danji",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Korean"
@@ -3203,6 +3405,7 @@
   },
   {
     "name": "Indian Table",
+    "borough": "Brooklyn",
     "neighborhood": "Cobble Hill",
     "tags": [
       "Indian"
@@ -3216,6 +3419,7 @@
   },
   {
     "name": "Nizza",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Italian",
@@ -3234,6 +3438,7 @@
   },
   {
     "name": "T. Brasserie",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "French"
@@ -3251,6 +3456,7 @@
   },
   {
     "name": "Sabai Thai",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Thai"
@@ -3265,6 +3471,7 @@
   },
   {
     "name": "Taste of India II",
+    "borough": "Staten Island",
     "neighborhood": "New Dorp",
     "tags": [
       "Indian"
@@ -3282,6 +3489,7 @@
   },
   {
     "name": "Barawine",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "French"
@@ -3298,6 +3506,7 @@
   },
   {
     "name": "Le Basque",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "French",
@@ -3315,6 +3524,7 @@
   },
   {
     "name": "La Masseria",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Italian"
@@ -3332,6 +3542,7 @@
   },
   {
     "name": "Jacob's Pickles",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Soul Food / Southern"
@@ -3348,6 +3559,7 @@
   },
   {
     "name": "Tamarind Tribeca",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "Indian"
@@ -3363,6 +3575,7 @@
   },
   {
     "name": "L'Express",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "French"
@@ -3379,6 +3592,7 @@
   },
   {
     "name": "La Grande Boucherie",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "French"
@@ -3394,6 +3608,7 @@
   },
   {
     "name": "Cuna NYC",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Mexican"
@@ -3409,6 +3624,7 @@
   },
   {
     "name": "Brass & the Tusk Bar",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "American (New)",
@@ -3428,6 +3644,7 @@
   },
   {
     "name": "Sushi Sen-Nin",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Japanese / Sushi"
@@ -3442,6 +3659,7 @@
   },
   {
     "name": "Cull & Pistol Oyster Bar",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Seafood"
@@ -3458,6 +3676,7 @@
   },
   {
     "name": "Metropolis",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "American (New)"
@@ -3475,6 +3694,7 @@
   },
   {
     "name": "Momofuku Noodle Bar",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Asian Fusion",
@@ -3493,6 +3713,7 @@
   },
   {
     "name": "Essex",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "Steakhouse",
@@ -3509,6 +3730,7 @@
   },
   {
     "name": "Bad Roman",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -3523,6 +3745,7 @@
   },
   {
     "name": "Calvert's",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (New)"
@@ -3540,6 +3763,7 @@
   },
   {
     "name": "Naks",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [],
     "meal_types": [
@@ -3553,6 +3777,7 @@
   },
   {
     "name": "Craft",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "American (New)"
@@ -3568,6 +3793,7 @@
   },
   {
     "name": "Maisonetta",
+    "borough": "The Bronx",
     "neighborhood": "Mott Haven",
     "tags": [
       "Mexican",
@@ -3585,6 +3811,7 @@
   },
   {
     "name": "La Sirene UWS",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "French"
@@ -3601,6 +3828,7 @@
   },
   {
     "name": "David Burke Tavern",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "American (New)"
@@ -3618,6 +3846,7 @@
   },
   {
     "name": "Cut",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Steakhouse"
@@ -3634,6 +3863,7 @@
   },
   {
     "name": "Patrick's on the Hill",
+    "borough": "Manhattan",
     "neighborhood": "Hamilton Heights",
     "tags": [
       "Caribbean"
@@ -3649,6 +3879,7 @@
   },
   {
     "name": "Clara",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "American (New)"
@@ -3666,6 +3897,7 @@
   },
   {
     "name": "Walls\u00e9",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Austrian",
@@ -3681,6 +3913,7 @@
   },
   {
     "name": "Park Ave Kitchen by David Burke",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (New)"
@@ -3698,6 +3931,7 @@
   },
   {
     "name": "Tinto Tapas Restaurant & Wine Bar",
+    "borough": "Manhattan",
     "neighborhood": "Washington Heights",
     "tags": [
       "Spanish"
@@ -3713,6 +3947,7 @@
   },
   {
     "name": "Ci Siamo",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Italian"
@@ -3728,6 +3963,7 @@
   },
   {
     "name": "Blackbarn",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "American (New)"
@@ -3745,6 +3981,7 @@
   },
   {
     "name": "Da Andrea - Greenwich Village",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "Italian"
@@ -3761,6 +3998,7 @@
   },
   {
     "name": "Nusr-Et - Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse"
@@ -3778,6 +4016,7 @@
   },
   {
     "name": "Warren Street Bar & Restaurant",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "American (New)"
@@ -3793,6 +4032,7 @@
   },
   {
     "name": "The Bronx Beer Hall",
+    "borough": "The Bronx",
     "neighborhood": "Belmont",
     "tags": [
       "Pizza",
@@ -3811,6 +4051,7 @@
   },
   {
     "name": "The Splendid",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (New)"
@@ -3826,6 +4067,7 @@
   },
   {
     "name": "Kyma Hudson Yards",
+    "borough": "Manhattan",
     "neighborhood": "Hudson Yards",
     "tags": [
       "Greek",
@@ -3843,6 +4085,7 @@
   },
   {
     "name": "Barbetta",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Italian"
@@ -3857,6 +4100,7 @@
   },
   {
     "name": "La Pecora Bianca Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Italian"
@@ -3872,6 +4116,7 @@
   },
   {
     "name": "Uva Next Door",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian",
@@ -3888,6 +4133,7 @@
   },
   {
     "name": "Catch NYC",
+    "borough": "Manhattan",
     "neighborhood": "Meatpacking District",
     "tags": [
       "Seafood"
@@ -3902,6 +4148,7 @@
   },
   {
     "name": "Mishik",
+    "borough": "Manhattan",
     "neighborhood": "Hudson Square",
     "tags": [
       "Japanese / Sushi"
@@ -3917,6 +4164,7 @@
   },
   {
     "name": "Amity Hall Uptown",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "American (New)"
@@ -3932,6 +4180,7 @@
   },
   {
     "name": "Bonsaii Tapas & Wine Bar",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Continental",
@@ -3950,6 +4199,7 @@
   },
   {
     "name": "Comal",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "Mexican"
@@ -3964,6 +4214,7 @@
   },
   {
     "name": "Bottino",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Italian"
@@ -3980,6 +4231,7 @@
   },
   {
     "name": "Henry's End",
+    "borough": "Brooklyn",
     "neighborhood": "Brooklyn Heights",
     "tags": [
       "American (New)"
@@ -3995,6 +4247,7 @@
   },
   {
     "name": "Trattoria Dell'Arte",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -4010,6 +4263,7 @@
   },
   {
     "name": "Torch & Crown Brewing Company",
+    "borough": "Manhattan",
     "neighborhood": "Hudson Square",
     "tags": [
       "American (New)"
@@ -4025,6 +4279,7 @@
   },
   {
     "name": "Aqua Boil",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Seafood"
@@ -4042,6 +4297,7 @@
   },
   {
     "name": "The Fulton",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "Seafood"
@@ -4057,6 +4313,7 @@
   },
   {
     "name": "Nick's Lobster House",
+    "borough": "Brooklyn",
     "neighborhood": "Mill Basin",
     "tags": [
       "Seafood"
@@ -4074,6 +4331,7 @@
   },
   {
     "name": "Serra",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Italian"
@@ -4090,6 +4348,7 @@
   },
   {
     "name": "Oscar Wilde",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "American (New)",
@@ -4106,6 +4365,7 @@
   },
   {
     "name": "La Pecora Bianca NoMad",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Italian"
@@ -4121,6 +4381,7 @@
   },
   {
     "name": "Fil\u00e9 Gumbo Bar",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "Cajun/Creole"
@@ -4137,6 +4398,7 @@
   },
   {
     "name": "Recette",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "French"
@@ -4154,6 +4416,7 @@
   },
   {
     "name": "Osteria by Primo",
+    "borough": "Staten Island",
     "neighborhood": "Todt Hill",
     "tags": [
       "Italian"
@@ -4169,6 +4432,7 @@
   },
   {
     "name": "Leonetta",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Mediterranean"
@@ -4182,6 +4446,7 @@
   },
   {
     "name": "El Coco - Chelsea",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Mexican"
@@ -4199,6 +4464,7 @@
   },
   {
     "name": "Nino's",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Italian"
@@ -4215,6 +4481,7 @@
   },
   {
     "name": "Chazz Palminteri Italian Restaurant",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -4231,6 +4498,7 @@
   },
   {
     "name": "Lillie's Victorian\u2014Union Square",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "American (New)",
@@ -4250,6 +4518,7 @@
   },
   {
     "name": "Tanoreen",
+    "borough": "Brooklyn",
     "neighborhood": "Bay Ridge",
     "tags": [
       "Middle Eastern",
@@ -4266,6 +4535,7 @@
   },
   {
     "name": "Giorgio's of Gramercy",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "American (New)",
@@ -4283,6 +4553,7 @@
   },
   {
     "name": "Isabelle's Osteria",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Italian",
@@ -4300,6 +4571,7 @@
   },
   {
     "name": "The Gallery",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Japanese / Sushi"
@@ -4317,6 +4589,7 @@
   },
   {
     "name": "Yama Ramen",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Japanese / Sushi"
@@ -4334,6 +4607,7 @@
   },
   {
     "name": "JoJo",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "American (New)"
@@ -4349,6 +4623,7 @@
   },
   {
     "name": "abcV",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "American (New)"
@@ -4365,6 +4640,7 @@
   },
   {
     "name": "Psaraki",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Greek"
@@ -4380,6 +4656,7 @@
   },
   {
     "name": "Glass House Tavern",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (New)"
@@ -4395,6 +4672,7 @@
   },
   {
     "name": "Salt + Charcoal",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Steakhouse",
@@ -4410,6 +4688,7 @@
   },
   {
     "name": "The Independent",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (New)"
@@ -4426,6 +4705,7 @@
   },
   {
     "name": "Del Frisco's Grille - Brookfield Place",
+    "borough": "Manhattan",
     "neighborhood": "Battery Park City",
     "tags": [
       "Steakhouse",
@@ -4444,6 +4724,7 @@
   },
   {
     "name": "Carmine's - Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -4461,6 +4742,7 @@
   },
   {
     "name": "Le Jardinier",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "French"
@@ -4476,6 +4758,7 @@
   },
   {
     "name": "Socarrat Paella Bar - Midtown East",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Spanish"
@@ -4492,6 +4775,7 @@
   },
   {
     "name": "Acadia",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Mediterranean"
@@ -4508,6 +4792,7 @@
   },
   {
     "name": "The Chemistry Room",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Japanese / Sushi"
@@ -4523,6 +4808,7 @@
   },
   {
     "name": "A La Turka",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Turkish",
@@ -4541,6 +4827,7 @@
   },
   {
     "name": "Playa Betty's",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Mexican"
@@ -4557,6 +4844,7 @@
   },
   {
     "name": "Baciccia Pizza e Cucina",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "Italian",
@@ -4573,6 +4861,7 @@
   },
   {
     "name": "Kissaki",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Japanese / Sushi"
@@ -4586,6 +4875,7 @@
   },
   {
     "name": "The Shell Seafood Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Mediterranean",
@@ -4602,6 +4892,7 @@
   },
   {
     "name": "Virgil's Real BBQ - Times Square",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Barbecue"
@@ -4619,6 +4910,7 @@
   },
   {
     "name": "Hutong",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Chinese"
@@ -4635,6 +4927,7 @@
   },
   {
     "name": "Maya",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Mexican"
@@ -4650,6 +4943,7 @@
   },
   {
     "name": "Via 13",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian"
@@ -4666,6 +4960,7 @@
   },
   {
     "name": "Miriam Upper East Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Mediterranean"
@@ -4682,6 +4977,7 @@
   },
   {
     "name": "A Pasta Bar",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Italian"
@@ -4698,6 +4994,7 @@
   },
   {
     "name": "Mable's Smokehouse and Banquet Hall",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Barbecue"
@@ -4715,6 +5012,7 @@
   },
   {
     "name": "Bourbon Steak New York",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse"
@@ -4729,6 +5027,7 @@
   },
   {
     "name": "Mission Ceviche - Union Square",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "Peruvian"
@@ -4746,6 +5045,7 @@
   },
   {
     "name": "Treadwell Park - Upper East Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "American (Traditional)"
@@ -4761,6 +5061,7 @@
   },
   {
     "name": "Grand Brasserie",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "French"
@@ -4778,6 +5079,7 @@
   },
   {
     "name": "Momoya Soho",
+    "borough": "Manhattan",
     "neighborhood": "Nolita",
     "tags": [
       "Japanese / Sushi"
@@ -4795,6 +5097,7 @@
   },
   {
     "name": "Rossini's",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Italian"
@@ -4811,6 +5114,7 @@
   },
   {
     "name": "ABC Cocina",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "Latin American",
@@ -4828,6 +5132,7 @@
   },
   {
     "name": "Cosme",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Mexican"
@@ -4843,6 +5148,7 @@
   },
   {
     "name": "Lorenzo's Restaurant, Bar & Cabaret",
+    "borough": "Staten Island",
     "neighborhood": "Bloomfield",
     "tags": [
       "Italian",
@@ -4858,6 +5164,7 @@
   },
   {
     "name": "City Winery",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "American (New)",
@@ -4877,6 +5184,7 @@
   },
   {
     "name": "Le Rivage",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "French"
@@ -4894,6 +5202,7 @@
   },
   {
     "name": "Gui Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Steakhouse",
@@ -4912,6 +5221,7 @@
   },
   {
     "name": "Audace",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Italian"
@@ -4929,6 +5239,7 @@
   },
   {
     "name": "Mark's Off Madison",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Italian",
@@ -4946,6 +5257,7 @@
   },
   {
     "name": "Dos Caminos Meatpacking District",
+    "borough": "Manhattan",
     "neighborhood": "Meatpacking District",
     "tags": [
       "Mexican"
@@ -4963,6 +5275,7 @@
   },
   {
     "name": "San Carlo",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Italian"
@@ -4980,6 +5293,7 @@
   },
   {
     "name": "Brooklyn Chop House - Times Square",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Asian Fusion",
@@ -4996,6 +5310,7 @@
   },
   {
     "name": "The Library at The Public",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "American (New)"
@@ -5011,6 +5326,7 @@
   },
   {
     "name": "Raval Steakhouse",
+    "borough": "Staten Island",
     "neighborhood": "Tompkinsville",
     "tags": [
       "Steakhouse"
@@ -5026,6 +5342,7 @@
   },
   {
     "name": "Junoon",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Indian"
@@ -5042,6 +5359,7 @@
   },
   {
     "name": "Miss Lily's 7A",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Caribbean"
@@ -5058,6 +5376,7 @@
   },
   {
     "name": "Bar56",
+    "borough": "Brooklyn",
     "neighborhood": "Dumbo",
     "tags": [
       "American (New)"
@@ -5074,6 +5393,7 @@
   },
   {
     "name": "Tuome",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "American (New)",
@@ -5089,6 +5409,7 @@
   },
   {
     "name": "Red Rooster Harlem",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "Soul Food / Southern"
@@ -5103,6 +5424,7 @@
   },
   {
     "name": "Plado Tasting Bar",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Mediterranean"
@@ -5119,6 +5441,7 @@
   },
   {
     "name": "Benjamin Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Steakhouse"
@@ -5134,6 +5457,7 @@
   },
   {
     "name": "Mastro's Steakhouse NYC",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse"
@@ -5148,6 +5472,7 @@
   },
   {
     "name": "Zo\u00ec Mediterranean UES",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Mediterranean"
@@ -5165,6 +5490,7 @@
   },
   {
     "name": "Four Twenty Five",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (New)"
@@ -5180,6 +5506,7 @@
   },
   {
     "name": "Patsy's Italian Restaurant",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -5196,6 +5523,7 @@
   },
   {
     "name": "Dos Caminos Lexington",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Mexican"
@@ -5211,6 +5539,7 @@
   },
   {
     "name": "Miriam Brooklyn",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "Mediterranean"
@@ -5227,6 +5556,7 @@
   },
   {
     "name": "Scarpetta",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Italian"
@@ -5243,6 +5573,7 @@
   },
   {
     "name": "5 Napkin Burger - Hell's Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "American (Traditional)",
@@ -5261,6 +5592,7 @@
   },
   {
     "name": "Point Seven",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Seafood"
@@ -5275,6 +5607,7 @@
   },
   {
     "name": "Ocean Prime",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Seafood",
@@ -5292,6 +5625,7 @@
   },
   {
     "name": "Central Park Boathouse",
+    "borough": "Manhattan",
     "neighborhood": "Central Park",
     "tags": [
       "Continental",
@@ -5307,6 +5641,7 @@
   },
   {
     "name": "1803 NYC",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "Cajun/Creole"
@@ -5323,6 +5658,7 @@
   },
   {
     "name": "Fushimi - Times Square",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Japanese / Sushi",
@@ -5341,6 +5677,7 @@
   },
   {
     "name": "Boucherie West Village",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "French"
@@ -5356,6 +5693,7 @@
   },
   {
     "name": "Le Pavillon",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "French"
@@ -5364,12 +5702,12 @@
       "$60 Lunch Price"
     ],
     "reservation_option": {
-      "restaurant_website": "https://lepavillonnyc.com",
-      "known_platform_url": "https://resy.com/cities/new-york-ny/venues/le-pavillon/events/saturday-valentines-lunch-2026-02-14?seats=2&date=2026-01-22"
+      "restaurant_website": "https://lepavillonnyc.com"
     }
   },
   {
     "name": "The Dining Room at Gramercy Tavern",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "American (New)"
@@ -5385,6 +5723,7 @@
   },
   {
     "name": "Bryant Park Grill",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (Traditional)",
@@ -5402,6 +5741,7 @@
   },
   {
     "name": "Lincoln Ristorante",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -5416,6 +5756,7 @@
   },
   {
     "name": "The Parliament",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (Traditional)"
@@ -5431,6 +5772,7 @@
   },
   {
     "name": "Noreetuh",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Hawaiian"
@@ -5447,6 +5789,7 @@
   },
   {
     "name": "Morton's The Steakhouse\u2014World Trade Center",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Steakhouse"
@@ -5463,6 +5806,7 @@
   },
   {
     "name": "Tarallucci e Vino - NoMad",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Italian"
@@ -5477,6 +5821,7 @@
   },
   {
     "name": "Union Square Cafe",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "American (New)"
@@ -5492,6 +5837,7 @@
   },
   {
     "name": "Kyu NYC",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "Asian Fusion",
@@ -5509,6 +5855,7 @@
   },
   {
     "name": "Il Carino",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -5524,6 +5871,7 @@
   },
   {
     "name": "Dowling\u2019s at The Carlyle",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "American (Traditional)"
@@ -5539,6 +5887,7 @@
   },
   {
     "name": "Tao Uptown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Pan-Asian"
@@ -5554,6 +5903,7 @@
   },
   {
     "name": "Ai Fiori",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian",
@@ -5570,6 +5920,7 @@
   },
   {
     "name": "Nick + Stef's Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse"
@@ -5584,6 +5935,7 @@
   },
   {
     "name": "Takumen",
+    "borough": "Queens",
     "neighborhood": "Long Island City",
     "tags": [
       "Japanese / Sushi",
@@ -5602,6 +5954,7 @@
   },
   {
     "name": "Sinigual",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Mexican"
@@ -5617,6 +5970,7 @@
   },
   {
     "name": "Chelsea Ristorante",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Italian"
@@ -5634,6 +5988,7 @@
   },
   {
     "name": "Brooklyn Chop House - Downtown",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Steakhouse",
@@ -5650,6 +6005,7 @@
   },
   {
     "name": "Il Falco",
+    "borough": "Queens",
     "neighborhood": "Long Island City",
     "tags": [
       "Italian",
@@ -5666,6 +6022,7 @@
   },
   {
     "name": "Pulperia Latin Mediterranean Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Mediterranean",
@@ -5682,6 +6039,7 @@
   },
   {
     "name": "Maiella",
+    "borough": "Queens",
     "neighborhood": "Long Island City",
     "tags": [
       "Italian"
@@ -5698,6 +6056,7 @@
   },
   {
     "name": "Lattanzi Cucina Italiana",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Italian"
@@ -5715,6 +6074,7 @@
   },
   {
     "name": "Dinosaur Bar-B-Que - Harlem",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "Barbecue"
@@ -5732,6 +6092,7 @@
   },
   {
     "name": "Charlie Palmer Steak IV",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Steakhouse",
@@ -5749,6 +6110,7 @@
   },
   {
     "name": "Frenchman's Dough",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "Italian",
@@ -5767,6 +6129,7 @@
   },
   {
     "name": "El Coco - Hell's Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Mexican"
@@ -5784,6 +6147,7 @@
   },
   {
     "name": "The Ivy Room",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "American (New)",
@@ -5801,6 +6165,7 @@
   },
   {
     "name": "Miriam Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Mediterranean"
@@ -5817,6 +6182,7 @@
   },
   {
     "name": "Sungold",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "American (New)",
@@ -5835,6 +6201,7 @@
   },
   {
     "name": "Sicily Osteria",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Italian"
@@ -5852,6 +6219,7 @@
   },
   {
     "name": "Barbalu Bklyn",
+    "borough": "Brooklyn",
     "neighborhood": "Boerum Hill",
     "tags": [
       "Italian"
@@ -5867,6 +6235,7 @@
   },
   {
     "name": "Lore",
+    "borough": "Brooklyn",
     "neighborhood": "South Slope",
     "tags": [
       "Eclectic"
@@ -5882,6 +6251,7 @@
   },
   {
     "name": "Nami Nori - Williamsburg",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Japanese / Sushi"
@@ -5897,6 +6267,7 @@
   },
   {
     "name": "Palermo Argentinian Bistro - NYC",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Argentinian",
@@ -5913,6 +6284,7 @@
   },
   {
     "name": "Burger & Lobster Bryant Park",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Seafood",
@@ -5930,6 +6302,7 @@
   },
   {
     "name": "The Otter",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Seafood"
@@ -5945,6 +6318,7 @@
   },
   {
     "name": "Pomp & Circumstance",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Mediterranean"
@@ -5958,6 +6332,7 @@
   },
   {
     "name": "Le Rock",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "French"
@@ -5973,6 +6348,7 @@
   },
   {
     "name": "Pappardella",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -5990,6 +6366,7 @@
   },
   {
     "name": "Aromi",
+    "borough": "Brooklyn",
     "neighborhood": "Carroll Gardens",
     "tags": [
       "Italian",
@@ -6007,6 +6384,7 @@
   },
   {
     "name": "Twin Tails",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Thai",
@@ -6022,6 +6400,7 @@
   },
   {
     "name": "STK Downtown",
+    "borough": "Manhattan",
     "neighborhood": "Meatpacking District",
     "tags": [
       "Steakhouse"
@@ -6039,6 +6418,7 @@
   },
   {
     "name": "Il Buco Alimentari & Vineria",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "Italian",
@@ -6055,6 +6435,7 @@
   },
   {
     "name": "Maizal",
+    "borough": "Staten Island",
     "neighborhood": "Rosebank",
     "tags": [
       "Mexican"
@@ -6071,6 +6452,7 @@
   },
   {
     "name": "Industry Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "American (New)"
@@ -6087,6 +6469,7 @@
   },
   {
     "name": "Wabi Nori",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "Japanese / Sushi"
@@ -6103,6 +6486,7 @@
   },
   {
     "name": "Anassa Taverna - Manhattan",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Greek",
@@ -6119,6 +6503,7 @@
   },
   {
     "name": "Victor's Cafe",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Cuban"
@@ -6135,6 +6520,7 @@
   },
   {
     "name": "Bocca Di Bacco\u2014Chelsea",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Italian"
@@ -6152,6 +6538,7 @@
   },
   {
     "name": "Stout NYC Bryant Park",
+    "borough": "Manhattan",
     "neighborhood": "Garment District",
     "tags": [
       "American (Traditional)",
@@ -6166,6 +6553,7 @@
   },
   {
     "name": "Rowland's Bar & Grill",
+    "borough": "Manhattan",
     "neighborhood": "Herald Square",
     "tags": [
       "Gastropub"
@@ -6183,6 +6571,7 @@
   },
   {
     "name": "Lafayette",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "French"
@@ -6199,6 +6588,7 @@
   },
   {
     "name": "AperiBar",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Italian"
@@ -6214,6 +6604,7 @@
   },
   {
     "name": "Olio e Pi\u00f9",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian",
@@ -6230,6 +6621,7 @@
   },
   {
     "name": "The Paris Cafe",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "French",
@@ -6246,6 +6638,7 @@
   },
   {
     "name": "Jade Eatery & Lounge",
+    "borough": "Queens",
     "neighborhood": "Forest Hills",
     "tags": [
       "Asian Fusion",
@@ -6264,6 +6657,7 @@
   },
   {
     "name": "The Parlour Room",
+    "borough": "Manhattan",
     "neighborhood": "Herald Square",
     "tags": [
       "American (New)"
@@ -6278,6 +6672,7 @@
   },
   {
     "name": "Michael's",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (New)"
@@ -6293,6 +6688,7 @@
   },
   {
     "name": "San Sabino",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian",
@@ -6308,6 +6704,7 @@
   },
   {
     "name": "Frankie & Johnnie\u2019s Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Steakhouse"
@@ -6324,6 +6721,7 @@
   },
   {
     "name": "Mokyo",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Korean",
@@ -6340,6 +6738,7 @@
   },
   {
     "name": "Soogil",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Korean"
@@ -6355,6 +6754,7 @@
   },
   {
     "name": "Bixi",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "Asian Fusion"
@@ -6370,6 +6770,7 @@
   },
   {
     "name": "The Greenhouse Cafe",
+    "borough": "Brooklyn",
     "neighborhood": "Bay Ridge",
     "tags": [
       "American (New)"
@@ -6385,6 +6786,7 @@
   },
   {
     "name": "Bar Primi - Bowery",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Italian"
@@ -6400,6 +6802,7 @@
   },
   {
     "name": "Little Maven",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "American (New)"
@@ -6413,6 +6816,7 @@
   },
   {
     "name": "Redeye Grill",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (New)",
@@ -6430,6 +6834,7 @@
   },
   {
     "name": "The Terrace and Outdoor Gardens",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (New)"
@@ -6446,6 +6851,7 @@
   },
   {
     "name": "Crown Shy",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "American (New)"
@@ -6461,6 +6867,7 @@
   },
   {
     "name": "Felice on Hudson",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian"
@@ -6478,6 +6885,7 @@
   },
   {
     "name": "Rynn Thai Restaurant & Bar",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Thai",
@@ -6496,6 +6904,7 @@
   },
   {
     "name": "Carlotto",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Italian"
@@ -6511,6 +6920,7 @@
   },
   {
     "name": "Mito - Forest Hills",
+    "borough": "Queens",
     "neighborhood": "Forest Hills",
     "tags": [
       "Japanese / Sushi"
@@ -6528,6 +6938,7 @@
   },
   {
     "name": "Archer & Goat",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "American (New)"
@@ -6542,6 +6953,7 @@
   },
   {
     "name": "Francie",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "American (New)"
@@ -6556,6 +6968,7 @@
   },
   {
     "name": "Melba\u2019s",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "Soul Food / Southern"
@@ -6573,6 +6986,7 @@
   },
   {
     "name": "Society Cafe",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "American (New)"
@@ -6588,6 +7002,7 @@
   },
   {
     "name": "Ben & Jack's 44th Street",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Steakhouse"
@@ -6603,6 +7018,7 @@
   },
   {
     "name": "Meet the Meat",
+    "borough": "Queens",
     "neighborhood": "Astoria",
     "tags": [
       "Steakhouse"
@@ -6618,6 +7034,7 @@
   },
   {
     "name": "Restaurant Nippon",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Japanese / Sushi"
@@ -6633,6 +7050,7 @@
   },
   {
     "name": "Sofrito on the Hudson",
+    "borough": "Manhattan",
     "neighborhood": "Hamilton Heights",
     "tags": [
       "Puerto Rican"
@@ -6647,6 +7065,7 @@
   },
   {
     "name": "ofCorsica",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Mediterranean"
@@ -6662,6 +7081,7 @@
   },
   {
     "name": "The Long Room",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Irish",
@@ -6679,6 +7099,7 @@
   },
   {
     "name": "Felice Columbus",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -6696,6 +7117,7 @@
   },
   {
     "name": "Dagon",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Mediterranean"
@@ -6712,6 +7134,7 @@
   },
   {
     "name": "Baires Grill New York",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Argentinian",
@@ -6731,6 +7154,7 @@
   },
   {
     "name": "Jack & Charlie\u2019s No. 118",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "American (New)"
@@ -6745,6 +7169,7 @@
   },
   {
     "name": "The Sea Fire Grill",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Seafood"
@@ -6760,6 +7185,7 @@
   },
   {
     "name": "Suprema Provisions",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian"
@@ -6775,6 +7201,7 @@
   },
   {
     "name": "Off the Hook Raw Bar & Grill",
+    "borough": "Queens",
     "neighborhood": "Astoria",
     "tags": [
       "Seafood"
@@ -6792,6 +7219,7 @@
   },
   {
     "name": "Arte Cafe",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -6809,6 +7237,7 @@
   },
   {
     "name": "Tarallucci e Vino - Union Square",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "Italian"
@@ -6825,6 +7254,7 @@
   },
   {
     "name": "Del Frisco's Grille",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse",
@@ -6843,6 +7273,7 @@
   },
   {
     "name": "STK Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse"
@@ -6860,6 +7291,7 @@
   },
   {
     "name": "Champers Social Club",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "French"
@@ -6876,6 +7308,7 @@
   },
   {
     "name": "Masseria Dei Vini",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Italian"
@@ -6893,6 +7326,7 @@
   },
   {
     "name": "Fogo de Ch\u00e3o Brazilian Steakhouse",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Brazilian",
@@ -6909,6 +7343,7 @@
   },
   {
     "name": "Langan's",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (New)"
@@ -6926,6 +7361,7 @@
   },
   {
     "name": "Ginger Ristoranti",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -6941,6 +7377,7 @@
   },
   {
     "name": "Skinos",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Mediterranean",
@@ -6959,6 +7396,7 @@
   },
   {
     "name": "Docks Oyster Bar",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Seafood",
@@ -6976,6 +7414,7 @@
   },
   {
     "name": "The Ivory Peacock",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Gastropub",
@@ -6994,6 +7433,7 @@
   },
   {
     "name": "Bar Primi - Penn District",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Italian"
@@ -7009,6 +7449,7 @@
   },
   {
     "name": "State Grill and Bar",
+    "borough": "Manhattan",
     "neighborhood": "Herald Square",
     "tags": [
       "American (Traditional)"
@@ -7023,6 +7464,7 @@
   },
   {
     "name": "Ophelia Lounge NYC",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (New)"
@@ -7038,6 +7480,7 @@
   },
   {
     "name": "Strip House Downtown",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "Steakhouse"
@@ -7053,6 +7496,7 @@
   },
   {
     "name": "Bar Milano by Eataly",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Italian"
@@ -7070,6 +7514,7 @@
   },
   {
     "name": "Palo Santo",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "Latin American"
@@ -7085,6 +7530,7 @@
   },
   {
     "name": "Balade",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Middle Eastern",
@@ -7103,6 +7549,7 @@
   },
   {
     "name": "Villa Berulia",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Italian"
@@ -7118,6 +7565,7 @@
   },
   {
     "name": "Siren Oyster Bar & Restaurant",
+    "borough": "Brooklyn",
     "neighborhood": "South Slope",
     "tags": [
       "Seafood"
@@ -7133,6 +7581,7 @@
   },
   {
     "name": "Sarabeth's Central Park South",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (New)"
@@ -7149,6 +7598,7 @@
   },
   {
     "name": "The Tuck Room",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "Gastropub",
@@ -7163,6 +7613,7 @@
   },
   {
     "name": "Luigi's",
+    "borough": "Queens",
     "neighborhood": "New Hyde Park",
     "tags": [
       "Italian"
@@ -7180,6 +7631,7 @@
   },
   {
     "name": "Sweet Catch",
+    "borough": "Brooklyn",
     "neighborhood": "Prospect Lefferts Gardens",
     "tags": [
       "Seafood"
@@ -7196,6 +7648,7 @@
   },
   {
     "name": "Benoit Restaurant & Wine Bar",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "French"
@@ -7212,6 +7665,7 @@
   },
   {
     "name": "Leuca",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Italian"
@@ -7227,6 +7681,7 @@
   },
   {
     "name": "Kru",
+    "borough": "Brooklyn",
     "neighborhood": "Greenpoint",
     "tags": [
       "Thai"
@@ -7244,6 +7699,7 @@
   },
   {
     "name": "Petite Boucherie",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "French"
@@ -7259,6 +7715,7 @@
   },
   {
     "name": "Godunk Thai Street Food",
+    "borough": "Manhattan",
     "neighborhood": "Noho",
     "tags": [
       "Thai"
@@ -7276,6 +7733,7 @@
   },
   {
     "name": "Gaonnuri",
+    "borough": "Manhattan",
     "neighborhood": "Koreatown",
     "tags": [
       "Korean"
@@ -7291,6 +7749,7 @@
   },
   {
     "name": "Gran Morsi",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "Italian"
@@ -7306,6 +7765,7 @@
   },
   {
     "name": "Bocca Di Bacco\u2014Hell's Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "Italian"
@@ -7323,6 +7783,7 @@
   },
   {
     "name": "Jupiter",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -7338,6 +7799,7 @@
   },
   {
     "name": "Pera SoHo",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Mediterranean",
@@ -7355,6 +7817,7 @@
   },
   {
     "name": "Stout NYC Financial District",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "American (Traditional)",
@@ -7369,6 +7832,7 @@
   },
   {
     "name": "Urban Cove Society & Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "American (New)",
@@ -7386,6 +7850,7 @@
   },
   {
     "name": "La Pizza & La Pasta",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Italian"
@@ -7401,6 +7866,7 @@
   },
   {
     "name": "The Queensboro",
+    "borough": "Queens",
     "neighborhood": "Jackson Heights",
     "tags": [
       "American (Traditional)"
@@ -7416,6 +7882,7 @@
   },
   {
     "name": "The Dolar Shop Hot Pot",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Chinese"
@@ -7431,6 +7898,7 @@
   },
   {
     "name": "Sempre Oggi",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -7445,6 +7913,7 @@
   },
   {
     "name": "Greywind",
+    "borough": "Manhattan",
     "neighborhood": "Hudson Yards",
     "tags": [
       "American (New)"
@@ -7460,6 +7929,7 @@
   },
   {
     "name": "Benny John's Bar and Grill",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Steakhouse"
@@ -7476,6 +7946,7 @@
   },
   {
     "name": "Travelers Poets & Friends",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Italian"
@@ -7493,6 +7964,7 @@
   },
   {
     "name": "Legasea",
+    "borough": "Manhattan",
     "neighborhood": "Garment District",
     "tags": [
       "American (New)",
@@ -7510,6 +7982,7 @@
   },
   {
     "name": "Benjamin Prime",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Steakhouse",
@@ -7526,6 +7999,7 @@
   },
   {
     "name": "The Bar Room at The Modern",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (New)"
@@ -7543,6 +8017,7 @@
   },
   {
     "name": "Rosemary's Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Italian"
@@ -7558,6 +8033,7 @@
   },
   {
     "name": "Ilili Restaurant",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Mediterranean",
@@ -7574,6 +8050,7 @@
   },
   {
     "name": "Crave Fishbar - Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Seafood"
@@ -7589,6 +8066,7 @@
   },
   {
     "name": "No Work Allowed",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Asian Fusion",
@@ -7605,6 +8083,7 @@
   },
   {
     "name": "Bond 45",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Italian",
@@ -7621,6 +8100,7 @@
   },
   {
     "name": "Veselka",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Ukrainian"
@@ -7637,6 +8117,7 @@
   },
   {
     "name": "Del Friscos Double Eagle Steakhouse New York",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse"
@@ -7653,6 +8134,7 @@
   },
   {
     "name": "Dagg Thai",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Thai"
@@ -7669,6 +8151,7 @@
   },
   {
     "name": "Nice Matin",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "French",
@@ -7686,6 +8169,7 @@
   },
   {
     "name": "Wayan",
+    "borough": "Manhattan",
     "neighborhood": "Nolita",
     "tags": [
       "Asian Fusion",
@@ -7703,6 +8187,7 @@
   },
   {
     "name": "Socarrat Paella Bar - Nolita",
+    "borough": "Manhattan",
     "neighborhood": "Nolita",
     "tags": [
       "Spanish"
@@ -7718,6 +8203,7 @@
   },
   {
     "name": "Wagamama - Nomad/Flatiron",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Asian Fusion",
@@ -7734,6 +8220,7 @@
   },
   {
     "name": "The Lodge Bar by Stout NYC at Bryant Park",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -7748,6 +8235,7 @@
   },
   {
     "name": "The Stand",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "Italian"
@@ -7765,6 +8253,7 @@
   },
   {
     "name": "Altesi Downtown",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Italian"
@@ -7782,6 +8271,7 @@
   },
   {
     "name": "Chito Gvrito NYC",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Eastern European"
@@ -7799,6 +8289,7 @@
   },
   {
     "name": "Stout NYC Grand Central",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "American (Traditional)",
@@ -7813,6 +8304,7 @@
   },
   {
     "name": "French Roast",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "French"
@@ -7828,6 +8320,7 @@
   },
   {
     "name": "Vallata",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Italian"
@@ -7844,6 +8337,7 @@
   },
   {
     "name": "Estiatorio Milos Hudson Yards",
+    "borough": "Manhattan",
     "neighborhood": "Hudson Yards",
     "tags": [
       "Seafood",
@@ -7860,6 +8354,7 @@
   },
   {
     "name": "Tasca NYC",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Latin American",
@@ -7879,6 +8374,7 @@
   },
   {
     "name": "Lido",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "Italian"
@@ -7895,6 +8391,7 @@
   },
   {
     "name": "Hawksmoor",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Steakhouse"
@@ -7909,6 +8406,7 @@
   },
   {
     "name": "Verde on Smith",
+    "borough": "Brooklyn",
     "neighborhood": "Cobble Hill",
     "tags": [
       "Italian"
@@ -7924,6 +8422,7 @@
   },
   {
     "name": "Maggie's Place",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "American (New)",
@@ -7943,6 +8442,7 @@
   },
   {
     "name": "Obao Midtown East",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Thai",
@@ -7960,6 +8460,7 @@
   },
   {
     "name": "Tha Phraya",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Thai"
@@ -7977,6 +8478,7 @@
   },
   {
     "name": "Bananas",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "American (New)"
@@ -7991,6 +8493,7 @@
   },
   {
     "name": "American Cut Tribeca",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "Steakhouse",
@@ -8006,6 +8509,7 @@
   },
   {
     "name": "DomoDomo NYC",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "Japanese / Sushi"
@@ -8022,6 +8526,7 @@
   },
   {
     "name": "Veerays",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Indian"
@@ -8037,6 +8542,7 @@
   },
   {
     "name": "Cha Cha Tang",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "Chinese"
@@ -8051,6 +8557,7 @@
   },
   {
     "name": "Ma\u2022d\u00e9",
+    "borough": "Manhattan",
     "neighborhood": "Nolita",
     "tags": [
       "Asian Fusion",
@@ -8068,6 +8575,7 @@
   },
   {
     "name": "Blue Fin",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Seafood"
@@ -8083,6 +8591,7 @@
   },
   {
     "name": "Dos Caminos Times Square",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Mexican"
@@ -8100,6 +8609,7 @@
   },
   {
     "name": "Felice 15 Gold Street",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Italian"
@@ -8117,6 +8627,7 @@
   },
   {
     "name": "Kimika",
+    "borough": "Manhattan",
     "neighborhood": "Nolita",
     "tags": [
       "Eclectic",
@@ -8133,6 +8644,7 @@
   },
   {
     "name": "The Noortwyck",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "American (New)"
@@ -8147,6 +8659,7 @@
   },
   {
     "name": "Pera Mediterranean Brasserie",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Mediterranean",
@@ -8164,6 +8677,7 @@
   },
   {
     "name": "The Clocktower",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "British",
@@ -8180,6 +8694,7 @@
   },
   {
     "name": "Mesiba",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Mediterranean",
@@ -8196,6 +8711,7 @@
   },
   {
     "name": "Riverpark",
+    "borough": "Manhattan",
     "neighborhood": "Kips Bay",
     "tags": [
       "American (New)"
@@ -8210,6 +8726,7 @@
   },
   {
     "name": "Grotta Azzurra",
+    "borough": "Manhattan",
     "neighborhood": "Little Italy",
     "tags": [
       "Italian"
@@ -8227,6 +8744,7 @@
   },
   {
     "name": "Philippe by Philippe Chow Downtown",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Chinese"
@@ -8242,6 +8760,7 @@
   },
   {
     "name": "The Russian Tea Room",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Continental"
@@ -8258,6 +8777,7 @@
   },
   {
     "name": "La Gioconda",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Italian"
@@ -8273,6 +8793,7 @@
   },
   {
     "name": "Amali",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Mediterranean",
@@ -8292,6 +8813,7 @@
   },
   {
     "name": "La Marchande",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "French"
@@ -8308,6 +8830,7 @@
   },
   {
     "name": "Atlantis Prime",
+    "borough": "Manhattan",
     "neighborhood": "Herald Square",
     "tags": [
       "Steakhouse",
@@ -8326,6 +8849,7 @@
   },
   {
     "name": "Seawolf - Bushwick",
+    "borough": "Brooklyn",
     "neighborhood": "Bushwick",
     "tags": [
       "Seafood",
@@ -8343,6 +8867,7 @@
   },
   {
     "name": "Hearth",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Italian",
@@ -8359,6 +8884,7 @@
   },
   {
     "name": "Parklife",
+    "borough": "Brooklyn",
     "neighborhood": "Gowanus",
     "tags": [
       "Mexican",
@@ -8376,6 +8902,7 @@
   },
   {
     "name": "French Louie",
+    "borough": "Brooklyn",
     "neighborhood": "Boerum Hill",
     "tags": [
       "French"
@@ -8392,6 +8919,7 @@
   },
   {
     "name": "Aqua Kyoto",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Japanese / Sushi",
@@ -8409,6 +8937,7 @@
   },
   {
     "name": "T Bar",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "American (New)",
@@ -8428,6 +8957,7 @@
   },
   {
     "name": "Temple Court",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "American (New)"
@@ -8444,6 +8974,7 @@
   },
   {
     "name": "Il Mulino Prime | Soho",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Steakhouse",
@@ -8462,6 +8993,7 @@
   },
   {
     "name": "Bobo",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "French"
@@ -8476,6 +9008,7 @@
   },
   {
     "name": "One Dine",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "American (New)"
@@ -8490,6 +9023,7 @@
   },
   {
     "name": "Dinner Party",
+    "borough": "Brooklyn",
     "neighborhood": "Clinton Hill",
     "tags": [
       "American (New)",
@@ -8508,6 +9042,7 @@
   },
   {
     "name": "Moono",
+    "borough": "Manhattan",
     "neighborhood": "Koreatown",
     "tags": [
       "Korean"
@@ -8522,6 +9057,7 @@
   },
   {
     "name": "The Ribbon\u2014Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "American (New)"
@@ -8538,6 +9074,7 @@
   },
   {
     "name": "Caf\u00e9 Boulud",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "French"
@@ -8552,6 +9089,7 @@
   },
   {
     "name": "Cafe D'Alsace",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "French"
@@ -8568,6 +9106,7 @@
   },
   {
     "name": "Treadwell Park - Downtown",
+    "borough": "Manhattan",
     "neighborhood": "Battery Park City",
     "tags": [
       "American (Traditional)"
@@ -8583,6 +9122,7 @@
   },
   {
     "name": "Gabriel's Bar & Restaurant",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -8598,6 +9138,7 @@
   },
   {
     "name": "Empire Steak House - Midtown East",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Steakhouse"
@@ -8614,6 +9155,7 @@
   },
   {
     "name": "HanGawi",
+    "borough": "Manhattan",
     "neighborhood": "Koreatown",
     "tags": [
       "Korean",
@@ -8631,6 +9173,7 @@
   },
   {
     "name": "Rosemary's East",
+    "borough": "Manhattan",
     "neighborhood": "Gramercy",
     "tags": [
       "Italian"
@@ -8646,6 +9189,7 @@
   },
   {
     "name": "PB Brasserie Steak House",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "French",
@@ -8662,6 +9206,7 @@
   },
   {
     "name": "Aquarelle",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Seafood"
@@ -8678,6 +9223,7 @@
   },
   {
     "name": "Margaux by La Sir\u00e8ne",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "French"
@@ -8694,6 +9240,7 @@
   },
   {
     "name": "Naxos",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Greek",
@@ -8710,6 +9257,7 @@
   },
   {
     "name": "F&J Pine",
+    "borough": "The Bronx",
     "neighborhood": "Morris Park",
     "tags": [
       "Italian"
@@ -8725,6 +9273,7 @@
   },
   {
     "name": "Romeo's Italian Restaurant",
+    "borough": "Queens",
     "neighborhood": "Jackson Heights",
     "tags": [
       "Italian"
@@ -8742,6 +9291,7 @@
   },
   {
     "name": "American Brass",
+    "borough": "Queens",
     "neighborhood": "Long Island City",
     "tags": [
       "American (New)"
@@ -8756,6 +9306,7 @@
   },
   {
     "name": "La Pecora Bianca Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Italian"
@@ -8771,6 +9322,7 @@
   },
   {
     "name": "Burrito Bar",
+    "borough": "Staten Island",
     "neighborhood": "West Brighton",
     "tags": [
       "Mexican"
@@ -8785,6 +9337,7 @@
   },
   {
     "name": "Amaranth",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Mediterranean",
@@ -8804,6 +9357,7 @@
   },
   {
     "name": "ABC Kitchens DUMBO",
+    "borough": "Brooklyn",
     "neighborhood": "Dumbo",
     "tags": [
       "American (New)"
@@ -8820,6 +9374,7 @@
   },
   {
     "name": "Barlume",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Mediterranean",
@@ -8836,6 +9391,7 @@
   },
   {
     "name": "Catch n' Chop",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Steakhouse",
@@ -8853,6 +9409,7 @@
   },
   {
     "name": "Telio",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Greek",
@@ -8871,6 +9428,7 @@
   },
   {
     "name": "Maison Passerelle",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "French"
@@ -8887,6 +9445,7 @@
   },
   {
     "name": "Wan Waan",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Thai"
@@ -8903,6 +9462,7 @@
   },
   {
     "name": "Am\u00e9lie - Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "French"
@@ -8920,6 +9480,7 @@
   },
   {
     "name": "Pepolino",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "Italian"
@@ -8937,6 +9498,7 @@
   },
   {
     "name": "Arthur & Sons - Murray Hill",
+    "borough": "Manhattan",
     "neighborhood": "Murray Hill",
     "tags": [
       "Italian"
@@ -8952,6 +9514,7 @@
   },
   {
     "name": "Am\u00e9lie - West Village",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "French"
@@ -8969,6 +9532,7 @@
   },
   {
     "name": "Fresco by Scotto",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Italian"
@@ -8983,6 +9547,7 @@
   },
   {
     "name": "Peggy's",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Eclectic"
@@ -8998,6 +9563,7 @@
   },
   {
     "name": "Bleu Fin",
+    "borough": "Brooklyn",
     "neighborhood": "Bushwick",
     "tags": [
       "Seafood",
@@ -9015,6 +9581,7 @@
   },
   {
     "name": "Smyth Tavern",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "American (Traditional)"
@@ -9032,6 +9599,7 @@
   },
   {
     "name": "SaiTong Thai",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Thai"
@@ -9047,6 +9615,7 @@
   },
   {
     "name": "Crazy Pizza",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Italian",
@@ -9063,6 +9632,7 @@
   },
   {
     "name": "The Mermaid Inn - Upper West Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Seafood"
@@ -9077,6 +9647,7 @@
   },
   {
     "name": "Le Tout Va Bien",
+    "borough": "Manhattan",
     "neighborhood": "Hells Kitchen",
     "tags": [
       "French"
@@ -9093,6 +9664,7 @@
   },
   {
     "name": "Paris Bar",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "French",
@@ -9110,6 +9682,7 @@
   },
   {
     "name": "Rialto Ristorante",
+    "borough": "Queens",
     "neighborhood": "Astoria",
     "tags": [
       "Italian"
@@ -9124,6 +9697,7 @@
   },
   {
     "name": "Surfish Bistro",
+    "borough": "Brooklyn",
     "neighborhood": "Gowanus",
     "tags": [
       "Peruvian"
@@ -9140,6 +9714,7 @@
   },
   {
     "name": "Fogo de Ch\u00e3o Brazilian Steakhouse - Elmhurst",
+    "borough": "Queens",
     "neighborhood": "Elmhurst",
     "tags": [
       "Brazilian",
@@ -9156,6 +9731,7 @@
   },
   {
     "name": "Little Fino",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [
       "Italian"
@@ -9171,6 +9747,7 @@
   },
   {
     "name": "Il Mulino New York | Madison",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Italian"
@@ -9188,6 +9765,7 @@
   },
   {
     "name": "Bar Bianchi",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Italian"
@@ -9205,6 +9783,7 @@
   },
   {
     "name": "Zou Zou's",
+    "borough": "Manhattan",
     "neighborhood": "Hudson Yards",
     "tags": [
       "Mediterranean",
@@ -9220,6 +9799,7 @@
   },
   {
     "name": "Pico De Gallo Bar & Kitchen",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Mexican"
@@ -9236,6 +9816,7 @@
   },
   {
     "name": "8282",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "Korean"
@@ -9251,6 +9832,7 @@
   },
   {
     "name": "Anassa Taverna - Astoria",
+    "borough": "Queens",
     "neighborhood": "Astoria",
     "tags": [
       "Greek",
@@ -9267,6 +9849,7 @@
   },
   {
     "name": "Pylos",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Greek"
@@ -9278,11 +9861,13 @@
       "$45 Sunday Dinner Price"
     ],
     "reservation_option": {
-      "restaurant_website": "https://pylosrestaurant.com"
+      "restaurant_website": "https://pylosrestaurant.com",
+      "known_platform_url": "https://resy.com/cities/ny/pylos"
     }
   },
   {
     "name": "Stretch Pizza - Park Ave",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Pizza",
@@ -9300,6 +9885,7 @@
   },
   {
     "name": "La Pecora Bianca SoHo",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Italian"
@@ -9315,6 +9901,7 @@
   },
   {
     "name": "Sojourn Social",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "American (New)"
@@ -9332,6 +9919,7 @@
   },
   {
     "name": "Mama Mezze",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Mediterranean"
@@ -9347,6 +9935,7 @@
   },
   {
     "name": "Quality Italian",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian",
@@ -9362,6 +9951,7 @@
   },
   {
     "name": "Naro",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Korean"
@@ -9379,6 +9969,7 @@
   },
   {
     "name": "Noodle Bar - Uptown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Asian Fusion",
@@ -9398,6 +9989,7 @@
   },
   {
     "name": "Casa Louie",
+    "borough": "Manhattan",
     "neighborhood": "Hudson Yards",
     "tags": [
       "Italian"
@@ -9414,6 +10006,7 @@
   },
   {
     "name": "Izakaya Futago",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Japanese / Sushi"
@@ -9430,6 +10023,7 @@
   },
   {
     "name": "Tinos",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Greek"
@@ -9446,6 +10040,7 @@
   },
   {
     "name": "Ralph's Sports Bar",
+    "borough": "Staten Island",
     "neighborhood": "Dongan Hills",
     "tags": [
       "American (New)",
@@ -9463,6 +10058,7 @@
   },
   {
     "name": "Sistina",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -9480,6 +10076,7 @@
   },
   {
     "name": "iNine Bistro",
+    "borough": "The Bronx",
     "neighborhood": "Mott Haven",
     "tags": [
       "Eclectic"
@@ -9493,6 +10090,7 @@
   },
   {
     "name": "Bar Mercer",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Gastropub",
@@ -9510,6 +10108,7 @@
   },
   {
     "name": "Masaaki",
+    "borough": "Queens",
     "neighborhood": "Bayside",
     "tags": [
       "Japanese / Sushi"
@@ -9526,6 +10125,7 @@
   },
   {
     "name": "Docks Off 5th",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Seafood"
@@ -9543,6 +10143,7 @@
   },
   {
     "name": "Saggio",
+    "borough": "Manhattan",
     "neighborhood": "Washington Heights",
     "tags": [
       "Italian"
@@ -9558,6 +10159,7 @@
   },
   {
     "name": "Ponty Bistro",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "French",
@@ -9575,6 +10177,7 @@
   },
   {
     "name": "Markette",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Caribbean"
@@ -9589,6 +10192,7 @@
   },
   {
     "name": "Smith & Mills - Rockefeller Center",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "American (New)"
@@ -9604,6 +10208,7 @@
   },
   {
     "name": "ilili - Midtown",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Mediterranean",
@@ -9620,6 +10225,7 @@
   },
   {
     "name": "Aqua Roma",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Italian",
@@ -9638,6 +10244,7 @@
   },
   {
     "name": "Dhamaka",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "Indian"
@@ -9653,6 +10260,7 @@
   },
   {
     "name": "Eataly NYC SoHo",
+    "borough": "Manhattan",
     "neighborhood": "Soho",
     "tags": [
       "Italian"
@@ -9668,6 +10276,7 @@
   },
   {
     "name": "Quality Meats",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Steakhouse",
@@ -9683,6 +10292,7 @@
   },
   {
     "name": "Motek",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Mediterranean"
@@ -9698,6 +10308,7 @@
   },
   {
     "name": "Masalawala & Sons",
+    "borough": "Brooklyn",
     "neighborhood": "Park Slope",
     "tags": [
       "Indian"
@@ -9713,6 +10324,7 @@
   },
   {
     "name": "Bar Chuzo",
+    "borough": "Brooklyn",
     "neighborhood": "Bay Ridge",
     "tags": [
       "Latin American"
@@ -9730,6 +10342,7 @@
   },
   {
     "name": "Leon\u2019s",
+    "borough": "Manhattan",
     "neighborhood": "Greenwich Village",
     "tags": [
       "Italian"
@@ -9739,11 +10352,13 @@
       "$45 Sunday Dinner Price"
     ],
     "reservation_option": {
-      "restaurant_website": "https://www.leonsnyc.com"
+      "restaurant_website": "https://www.leonsnyc.com",
+      "known_platform_url": "https://www.opentable.com/booking/restref/availability?lang=en-US&correlationId=bb764658-fcad-469f-b734-fa1dd1b28b5c&restRef=1307248&otSource=Restaurant%20website"
     }
   },
   {
     "name": "Barrio BX",
+    "borough": "The Bronx",
     "neighborhood": "Unionport",
     "tags": [
       "Puerto Rican"
@@ -9758,6 +10373,7 @@
   },
   {
     "name": "Levant on Smith",
+    "borough": "Brooklyn",
     "neighborhood": "Carroll Gardens",
     "tags": [
       "French"
@@ -9773,6 +10389,7 @@
   },
   {
     "name": "Code Red Restaurant & Lounge",
+    "borough": "The Bronx",
     "neighborhood": "Laconia",
     "tags": [
       "Caribbean",
@@ -9791,6 +10408,7 @@
   },
   {
     "name": "Ishq",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "Indian"
@@ -9806,6 +10424,7 @@
   },
   {
     "name": "Cath\u00e9drale",
+    "borough": "Manhattan",
     "neighborhood": "East Village",
     "tags": [
       "French",
@@ -9822,6 +10441,7 @@
   },
   {
     "name": "Le District Bar & Bistro",
+    "borough": "Manhattan",
     "neighborhood": "Battery Park City",
     "tags": [
       "French"
@@ -9838,6 +10458,7 @@
   },
   {
     "name": "Mykonian House",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Greek"
@@ -9855,6 +10476,7 @@
   },
   {
     "name": "Le Monde",
+    "borough": "Manhattan",
     "neighborhood": "Morningside Heights",
     "tags": [
       "French"
@@ -9870,6 +10492,7 @@
   },
   {
     "name": "UNGLO Thai Restaurant & Bar",
+    "borough": "Manhattan",
     "neighborhood": "Upper West Side",
     "tags": [
       "Thai"
@@ -9885,6 +10508,7 @@
   },
   {
     "name": "Murano Ristorante",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "Italian"
@@ -9901,6 +10525,7 @@
   },
   {
     "name": "Allora Fifth Ave",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Italian"
@@ -9918,6 +10543,7 @@
   },
   {
     "name": "Blvd Bistro",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "Soul Food / Southern"
@@ -9933,6 +10559,7 @@
   },
   {
     "name": "La Pecora Bianca Upper East Side",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -9948,6 +10575,7 @@
   },
   {
     "name": "Jasmine's Caribbean Cuisine",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "Caribbean"
@@ -9965,6 +10593,7 @@
   },
   {
     "name": "BKK New York",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Thai"
@@ -9982,6 +10611,7 @@
   },
   {
     "name": "Red Room Bar",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "French",
@@ -9999,6 +10629,7 @@
   },
   {
     "name": "Anassa Taverna - Downtown",
+    "borough": "Manhattan",
     "neighborhood": "Battery Park City",
     "tags": [
       "Greek",
@@ -10015,6 +10646,7 @@
   },
   {
     "name": "Renaissance Harlem",
+    "borough": "Manhattan",
     "neighborhood": "Harlem",
     "tags": [
       "American (New)",
@@ -10035,6 +10667,7 @@
   },
   {
     "name": "Brasserie Cognac - Midtown East",
+    "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "tags": [
       "French"
@@ -10051,6 +10684,7 @@
   },
   {
     "name": "Korali Estiatorio",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Greek",
@@ -10069,6 +10703,7 @@
   },
   {
     "name": "Reverie",
+    "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "tags": [],
     "meal_types": [
@@ -10083,6 +10718,7 @@
   },
   {
     "name": "City Vineyard",
+    "borough": "Manhattan",
     "neighborhood": "Tribeca",
     "tags": [
       "American (New)"
@@ -10098,6 +10734,7 @@
   },
   {
     "name": "La T\u00eate d\u2019Or",
+    "borough": "Manhattan",
     "neighborhood": "Flatiron District",
     "tags": [
       "Steakhouse"
@@ -10112,6 +10749,7 @@
   },
   {
     "name": "Boni & Mott",
+    "borough": "Manhattan",
     "neighborhood": "Nolita",
     "tags": [
       "Mediterranean"
@@ -10127,6 +10765,7 @@
   },
   {
     "name": "Benihana",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Japanese / Sushi",
@@ -10143,6 +10782,7 @@
   },
   {
     "name": "La Pecora Bianca Bryant Park",
+    "borough": "Manhattan",
     "neighborhood": "Midtown West",
     "tags": [
       "Italian"
@@ -10158,6 +10798,7 @@
   },
   {
     "name": "El Bistr\u00f3 Tropical",
+    "borough": "Manhattan",
     "neighborhood": "Nomad",
     "tags": [
       "Colombian"
@@ -10173,6 +10814,7 @@
   },
   {
     "name": "Saigon Social",
+    "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "tags": [
       "Vietnamese"
@@ -10190,6 +10832,7 @@
   },
   {
     "name": "Sea by Jungsik",
+    "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "tags": [
       "Thai",
@@ -10207,6 +10850,7 @@
   },
   {
     "name": "Mito - Fort Greene",
+    "borough": "Brooklyn",
     "neighborhood": "Fort Greene",
     "tags": [
       "Japanese / Sushi"
@@ -10224,6 +10868,7 @@
   },
   {
     "name": "Rosie O'Grady's",
+    "borough": "Manhattan",
     "neighborhood": "Times Square/Theatre District",
     "tags": [
       "American (Traditional)",
@@ -10243,6 +10888,7 @@
   },
   {
     "name": "Drai's Supper Club",
+    "borough": "Manhattan",
     "neighborhood": "West Village",
     "tags": [
       "French",
@@ -10259,6 +10905,7 @@
   },
   {
     "name": "Caravaggio",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Italian"
@@ -10276,6 +10923,7 @@
   },
   {
     "name": "Fogo de Ch\u00e3o Brazilian Steakhouse - World Trade Center",
+    "borough": "Manhattan",
     "neighborhood": "Lower Manhattan",
     "tags": [
       "Brazilian",
@@ -10292,6 +10940,7 @@
   },
   {
     "name": "Fogo de Ch\u00e3o Brazilian Steakhouse - Brooklyn",
+    "borough": "Brooklyn",
     "neighborhood": "Downtown Brooklyn",
     "tags": [
       "Brazilian",
@@ -10308,6 +10957,7 @@
   },
   {
     "name": "Pascalou",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "French"
@@ -10325,6 +10975,7 @@
   },
   {
     "name": "Cafe Zaffri",
+    "borough": "Manhattan",
     "neighborhood": "Union Square",
     "tags": [
       "Middle Eastern"
@@ -10339,6 +10990,7 @@
   },
   {
     "name": "Don Cheech",
+    "borough": "Staten Island",
     "neighborhood": "Rosebank",
     "tags": [
       "Italian"
@@ -10356,6 +11008,7 @@
   },
   {
     "name": "Yefsi Estiatorio",
+    "borough": "Manhattan",
     "neighborhood": "Upper East Side",
     "tags": [
       "Greek"
@@ -10373,6 +11026,7 @@
   },
   {
     "name": "Gitano NYC",
+    "borough": "Manhattan",
     "neighborhood": "The Seaport",
     "tags": [
       "Mexican"

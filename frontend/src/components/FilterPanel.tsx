@@ -3,13 +3,16 @@ import { Select, MultiSelect } from './Select';
 interface Props {
     search: string;
     neighborhoods: string[];
+    boroughs: string[];
     cuisine: string;
     mealTypes: string[];
     neighborhoodOptions: string[];
+    boroughOptions: string[];
     cuisines: string[];
     mealTypeOptions: string[];
     onSearchChange: (value: string) => void;
     onNeighborhoodsChange: (value: string[]) => void;
+    onBoroughsChange: (value: string[]) => void;
     onCuisineChange: (value: string) => void;
     onMealTypesChange: (values: string[]) => void;
 }
@@ -28,6 +31,7 @@ export function FilterPanel({
     onMealTypesChange,
 }: Props) {
     const neighborhoodOptionsMapped = neighborhoodOptions.map(n => ({ value: n, label: n }));
+    const boroughOptionsMapped = boroughOptions.map(b => ({ value: b, label: b }));
     const cuisineOptions = cuisines.map(c => ({ value: c, label: c }));
     const mealOptions = mealTypeOptions.map(m => ({ value: m, label: m }));
 
@@ -53,6 +57,15 @@ export function FilterPanel({
                 values={neighborhoods}
                 onChange={onNeighborhoodsChange}
                 placeholder="All Neighborhoods"
+            />
+
+            <MultiSelect
+                id="boroughs-select"
+                label="Borough"
+                options={boroughOptionsMapped}
+                values={boroughs}
+                onChange={onCoroughsChange}
+                placeholder="All Boroughs"
             />
 
             <Select
