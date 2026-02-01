@@ -19,7 +19,7 @@ export function FilterPanel({
     neighborhoods,
     cuisine,
     mealTypes,
-    neighborhoods,
+    neighborhoodOptions,
     cuisines,
     mealTypeOptions,
     onSearchChange,
