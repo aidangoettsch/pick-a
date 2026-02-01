@@ -27,7 +27,7 @@ export function FilterPanel({
     onCuisineChange,
     onMealTypesChange,
 }: Props) {
-    const neighborhoodOptions = neighborhoods.map(n => ({ value: n, label: n }));
+    const neighborhoodOptionsMapped = neighborhoodOptions.map(n => ({ value: n, label: n }));
     const cuisineOptions = cuisines.map(c => ({ value: c, label: c }));
     const mealOptions = mealTypeOptions.map(m => ({ value: m, label: m }));
 
@@ -49,7 +49,7 @@ export function FilterPanel({
             <MultiSelect
                 id="neighborhoods-select"
                 label="Neighborhood"
-                options={neighborhoodOptions}
+                options={neighborhoodOptionsMapped}
                 values={neighborhoods}
                 onChange={onNeighborhoodsChange}
                 placeholder="All Neighborhoods"
