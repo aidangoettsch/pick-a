@@ -16,7 +16,7 @@ interface Props {
 
 export function FilterPanel({
     search,
-    neighborhood,
+    neighborhoods,
     cuisine,
     mealTypes,
     neighborhoods,

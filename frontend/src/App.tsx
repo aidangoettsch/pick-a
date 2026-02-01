@@ -18,7 +18,7 @@ function App() {
 
   // Current filter values
   const [search, setSearch] = useState('');
-  const [neighborhood, setNeighborhoods] = useState<string[]>([]);
+  const [neighborhoods, setNeighborhoods] = useState<string[]>([]);
   const [cuisine, setCuisine] = useState('');
   const [mealTypes, setMealTypes] = useState<string[]>([]);
 
