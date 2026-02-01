@@ -56,7 +56,7 @@ def get_restaurants():
     results = RESTAURANTS
     
     if neighborhoods:
-        results = [r for r in results if any(mt in r.get("neighborhood", []) for mt in neighborhoods]
+        results = [r for r in results if any(mt in r.get("neighborhood", []) for mt in neighborhoods)]
     
     if tag:
         results = [r for r in results if tag in r.get("tags", [])]
