@@ -168,7 +168,7 @@
               --chdir "$out/lib/pick-a" \
               --set PYTHONPATH "$out/lib/pick-a" \
               --set STATIC_FOLDER "$out/lib/pick-a/static" \
-              --add-flags "-w 4 -b :::5000 server:app"
+              --add-flags "-w 4 -b [::]:5000 server:app"
 
             runHook postInstall
           '';
