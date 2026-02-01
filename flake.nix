@@ -25,6 +25,59 @@
   };
 
   outputs = { self, nixpkgs, flake-utils, pyproject-nix, uv2nix, pyproject-build-systems }:
+    let
+      myModule = { config, lib, pkgs, ... }:
+        let
+          cfg = config.services.pick-a;
+        in {
+          options.services.pick-a = {
+            enable = lib.mkEnableOption "Pick-A Restaurant Week Explorer";
+
+            package = lib.mkOption {
+              type = lib.types.package;
+              default = self.packages.${pkgs.system}.default;
+              description = "The pick-a package to use.";
+            };
+
+            port = lib.mkOption {
+              type = lib.types.port;
+              default = 5000;
+              description = "Port to listen on";
+            };
+
+            openFirewall = lib.mkOption {
+              type = lib.types.bool;
+              default = false;
+              description = "Open firewall for service port";
+            };
+          };
+
+          config = lib.mkIf cfg.enable {
+            systemd.services.pick-a = {
+              description = "Pick-A Restaurant Week Explorer";
+              wantedBy = [ "multi-user.target" ];
+              after = [ "network.target" ];
+
+              environment.PORT = toString cfg.port;
+
+              serviceConfig = {
+                Type = "simple";
+                ExecStart = "${cfg.package}/bin/pick-a-server";
+                Restart = "always";
+                RestartSec = "5s";
+                DynamicUser = true;
+              };
+            };
+
+            networking.firewall.allowedTCPPorts = lib.mkIf cfg.openFirewall [ cfg.port ];
+          };
+        };
+    in
+    {
+      # Export the module at the top level
+      nixosModules.default = myModule;
+    }
+    // # Merge with system-specific outputs (packages, devShells)
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
@@ -123,7 +176,7 @@
               --chdir "$out/lib/pick-a" \
               --set PYTHONPATH "$out/lib/pick-a" \
               --set STATIC_FOLDER "$out/lib/pick-a/static" \
-              --add-flags "-w 4 -b 0.0.0.0:\''${PORT:-5000} server:app"
+              --add-flags "-w 4 -b 0.0.0.0:\${PORT:-5000} server:app"
 
             runHook postInstall
           '';
@@ -144,48 +197,6 @@
             pkgs.uv
           ];
         };
-
-        # NixOS module
-        nixosModules.default = { config, lib, ... }:
-          let
-            cfg = config.services.pick-a;
-          in {
-            options.services.pick-a = {
-              enable = lib.mkEnableOption "Pick-A Restaurant Week Explorer";
-
-              port = lib.mkOption {
-                type = lib.types.port;
-                default = 5000;
-                description = "Port to listen on";
-              };
-
-              openFirewall = lib.mkOption {
-                type = lib.types.bool;
-                default = false;
-                description = "Open firewall for service port";
-              };
-            };
-
-            config = lib.mkIf cfg.enable {
-              systemd.services.pick-a = {
-                description = "Pick-A Restaurant Week Explorer";
-                wantedBy = [ "multi-user.target" ];
-                after = [ "network.target" ];
-
-                environment.PORT = toString cfg.port;
-
-                serviceConfig = {
-                  Type = "simple";
-                  ExecStart = "${pick-a}/bin/pick-a-server";
-                  Restart = "always";
-                  RestartSec = "5s";
-                  DynamicUser = true;
-                };
-              };
-
-              networking.firewall.allowedTCPPorts = lib.mkIf cfg.openFirewall [ cfg.port ];
-            };
-          };
       }
     );
 }
