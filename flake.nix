@@ -72,6 +72,7 @@
             pname = "pick-a-frontend";
             version = "0.1.0";
             src = ./frontend;
+            fetcherVersion = 1;
             hash = "sha256-0000000000000000000000000000000000000000000="; # Replace after first build
           };
 
