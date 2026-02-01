@@ -69,7 +69,7 @@
             pkgs.pnpmConfigHook
           ];
 
-          pnpmDeps = pkgs.pnpm.fetchDeps {
+          pnpmDeps = pkgs.fetchPnpmDeps {
             pname = "pick-a-frontend";
             version = "0.1.0";
             src = ./frontend;
