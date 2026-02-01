@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import type { Restaurant, Slot } from '../types';
 
 // In production, API is on same origin; in dev, use localhost:5000
@@ -9,7 +9,6 @@ const CLIENT_RATE_LIMIT_MS = 60; // ~17 requests per second
 
 export interface AvailabilityResult {
     restaurantName: string;
-    restaurantIndex: number;
     slots: Slot[] | null;
     error: string | null;
     loading: boolean;
@@ -27,7 +26,7 @@ interface Props {
     onDateChange: (value: string) => void;
     onPartySizeChange: (value: number) => void;
     restaurants: Restaurant[];
-    onResultsUpdate: (results: Map<number, AvailabilityResult>) => void;
+    onResultsUpdate: (results: Map<string, AvailabilityResult>) => void;
     availabilityFilters: AvailabilityFilters;
     onAvailabilityFiltersChange: (filters: AvailabilityFilters) => void;
     hasResults: boolean;
@@ -55,7 +54,7 @@ export function AvailabilityPanel({
     const [isChecking, setIsChecking] = useState(false);
     const [progress, setProgress] = useState({ completed: 0, total: 0, hasAvailability: 0 });
     const abortControllerRef = useRef<AbortController | null>(null);
-    const resultsRef = useRef<Map<number, AvailabilityResult>>(new Map());
+    const resultsRef = useRef<Map<string, AvailabilityResult>>(new Map());
 
     // Get checkable restaurants (those with API availability)
     const checkableRestaurants = restaurants.filter(r => {
@@ -67,7 +66,6 @@ export function AvailabilityPanel({
 
     const checkSingleRestaurant = useCallback(async (
         restaurant: Restaurant,
-        index: number,
         signal: AbortSignal
     ): Promise<AvailabilityResult> => {
         const opt = restaurant.reservation_option;
@@ -88,7 +86,6 @@ export function AvailabilityPanel({
             if (data.error) {
                 return {
                     restaurantName: restaurant.name,
-                    restaurantIndex: index,
                     slots: null,
                     error: data.error,
                     loading: false,
@@ -97,7 +94,6 @@ export function AvailabilityPanel({
 
             return {
                 restaurantName: restaurant.name,
-                restaurantIndex: index,
                 slots: data.slots || [],
                 error: null,
                 loading: false,
@@ -108,7 +104,6 @@ export function AvailabilityPanel({
             }
             return {
                 restaurantName: restaurant.name,
-                restaurantIndex: index,
                 slots: null,
                 error: 'Failed to check',
                 loading: false,
@@ -126,20 +121,14 @@ export function AvailabilityPanel({
         resultsRef.current = new Map();
         setProgress({ completed: 0, total: checkableRestaurants.length, hasAvailability: 0 });
 
-        const restaurantsWithIndices = checkableRestaurants.map(r => ({
-            restaurant: r,
-            index: restaurants.indexOf(r)
-        }));
-
         let completed = 0;
         let hasAvailability = 0;
 
-        for (const { restaurant, index } of restaurantsWithIndices) {
+        for (const restaurant of checkableRestaurants) {
             if (signal.aborted) break;
 
-            resultsRef.current.set(index, {
+            resultsRef.current.set(restaurant.name, {
                 restaurantName: restaurant.name,
-                restaurantIndex: index,
                 slots: null,
                 error: null,
                 loading: true,
@@ -147,8 +136,8 @@ export function AvailabilityPanel({
             onResultsUpdate(new Map(resultsRef.current));
 
             try {
-                const result = await checkSingleRestaurant(restaurant, index, signal);
-                resultsRef.current.set(index, result);
+                const result = await checkSingleRestaurant(restaurant, signal);
+                resultsRef.current.set(restaurant.name, result);
                 completed++;
                 if (result.slots && result.slots.length > 0) {
                     hasAvailability++;
@@ -160,26 +149,18 @@ export function AvailabilityPanel({
             }
 
             if (!signal.aborted && completed < checkableRestaurants.length) {
-                console.log("eepy")
                 await new Promise(resolve => setTimeout(resolve, CLIENT_RATE_LIMIT_MS));
             }
         }
 
         setIsChecking(false);
         abortControllerRef.current = null;
-    }, [checkableRestaurants, restaurants, checkSingleRestaurant, onResultsUpdate]);
+    }, [checkableRestaurants, checkSingleRestaurant, onResultsUpdate]);
 
     const cancelCheck = useCallback(() => {
         abortControllerRef.current?.abort();
         setIsChecking(false);
     }, []);
-
-    // Clear results when restaurants change
-    useEffect(() => {
-        resultsRef.current = new Map();
-        onResultsUpdate(new Map());
-        setProgress({ completed: 0, total: 0, hasAvailability: 0 });
-    }, [restaurants, onResultsUpdate]);
 
     const progressPercent = progress.total > 0
         ? Math.round((progress.completed / progress.total) * 100)

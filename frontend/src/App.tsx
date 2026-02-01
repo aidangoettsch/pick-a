@@ -33,8 +33,8 @@ function App() {
   const [date, setDate] = useState(() => new Date().toISOString().split('T')[0]);
   const [partySize, setPartySize] = useState(2);
 
-  // Bulk availability results (keyed by restaurant index in baseFilteredRestaurants)
-  const [bulkResults, setBulkResults] = useState<Map<number, AvailabilityResult>>(new Map());
+  // Bulk availability results (keyed by restaurant NAME for persistence across filter changes)
+  const [bulkResults, setBulkResults] = useState<Map<string, AvailabilityResult>>(new Map());
 
   // Availability filters (toggles that can be combined)
   const [availabilityFilters, setAvailabilityFilters] = useState<AvailabilityFilters>({
@@ -102,8 +102,8 @@ function App() {
       return baseFilteredRestaurants;
     }
 
-    return baseFilteredRestaurants.filter((_, index) => {
-      const result = bulkResults.get(index);
+    return baseFilteredRestaurants.filter((restaurant) => {
+      const result = bulkResults.get(restaurant.name);
 
       // Unchecked: no result or has error
       if (availabilityFilters.unchecked && (!result || result.error !== null)) {
@@ -130,22 +130,20 @@ function App() {
     });
   }, [baseFilteredRestaurants, bulkResults, availabilityFilters, timeFrom, timeTo]);
 
-  // Clear bulk results when base filters change
-  useEffect(() => {
-    setBulkResults(new Map());
-    setAvailabilityFilters({ available: false, notAvailable: false, unchecked: false });
-  }, [baseFilteredRestaurants]);
-
-  // Handle bulk results update
-  const handleBulkResultsUpdate = useCallback((results: Map<number, AvailabilityResult>) => {
-    setBulkResults(results);
+  // Handle bulk results update (merge with existing)
+  const handleBulkResultsUpdate = useCallback((results: Map<string, AvailabilityResult>) => {
+    setBulkResults(prev => {
+      const merged = new Map(prev);
+      results.forEach((value, key) => merged.set(key, value));
+      return merged;
+    });
   }, []);
 
   // Handle single restaurant result update (from individual card checks)
-  const handleSingleResultUpdate = useCallback((index: number, result: AvailabilityResult) => {
+  const handleSingleResultUpdate = useCallback((name: string, result: AvailabilityResult) => {
     setBulkResults(prev => {
       const newResults = new Map(prev);
-      newResults.set(index, result);
+      newResults.set(name, result);
       return newResults;
     });
   }, []);
@@ -217,21 +215,16 @@ function App() {
           ) : filteredRestaurants.length === 0 ? (
             <div className="loading">No restaurants found matching your filters.</div>
           ) : (
-            filteredRestaurants.map((restaurant) => {
-              // Find the original index in baseFilteredRestaurants for bulk result lookup
-              const originalIndex = baseFilteredRestaurants.indexOf(restaurant);
-              return (
-                <RestaurantCard
-                  key={`${restaurant.name}-${originalIndex}`}
-                  restaurant={restaurant}
-                  date={date}
-                  partySize={partySize}
-                  bulkResult={bulkResults.get(originalIndex)}
-                  restaurantIndex={originalIndex}
-                  onResultUpdate={handleSingleResultUpdate}
-                />
-              );
-            })
+            filteredRestaurants.map((restaurant) => (
+              <RestaurantCard
+                key={restaurant.name}
+                restaurant={restaurant}
+                date={date}
+                partySize={partySize}
+                bulkResult={bulkResults.get(restaurant.name)}
+                onResultUpdate={handleSingleResultUpdate}
+              />
+            ))
           )}
         </section>
       </main>

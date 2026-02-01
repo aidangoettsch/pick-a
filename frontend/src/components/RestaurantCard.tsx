@@ -10,11 +10,10 @@ interface Props {
     date: string;
     partySize: number;
     bulkResult?: AvailabilityResult;
-    restaurantIndex: number;
-    onResultUpdate: (index: number, result: AvailabilityResult) => void;
+    onResultUpdate: (name: string, result: AvailabilityResult) => void;
 }
 
-export function RestaurantCard({ restaurant, date, partySize, bulkResult, restaurantIndex, onResultUpdate }: Props) {
+export function RestaurantCard({ restaurant, date, partySize, bulkResult, onResultUpdate }: Props) {
     const opt = restaurant.reservation_option;
     const hasOpenTable = !!opt.opentable_id;
     const platformUrl = opt.known_platform_url;
@@ -29,9 +28,8 @@ export function RestaurantCard({ restaurant, date, partySize, bulkResult, restau
 
     const checkAvailability = useCallback(async () => {
         if (!date) {
-            onResultUpdate(restaurantIndex, {
+            onResultUpdate(restaurant.name, {
                 restaurantName: restaurant.name,
-                restaurantIndex,
                 slots: null,
                 error: 'Please select a date',
                 loading: false,
@@ -40,9 +38,8 @@ export function RestaurantCard({ restaurant, date, partySize, bulkResult, restau
         }
 
         // Set loading state
-        onResultUpdate(restaurantIndex, {
+        onResultUpdate(restaurant.name, {
             restaurantName: restaurant.name,
-            restaurantIndex,
             slots: null,
             error: null,
             loading: true,
@@ -63,32 +60,29 @@ export function RestaurantCard({ restaurant, date, partySize, bulkResult, restau
             const data: ApiAvailabilityResult = await res.json();
 
             if (data.error) {
-                onResultUpdate(restaurantIndex, {
+                onResultUpdate(restaurant.name, {
                     restaurantName: restaurant.name,
-                    restaurantIndex,
                     slots: null,
                     error: data.error,
                     loading: false,
                 });
             } else {
-                onResultUpdate(restaurantIndex, {
+                onResultUpdate(restaurant.name, {
                     restaurantName: restaurant.name,
-                    restaurantIndex,
                     slots: data.slots || [],
                     error: null,
                     loading: false,
                 });
             }
         } catch {
-            onResultUpdate(restaurantIndex, {
+            onResultUpdate(restaurant.name, {
                 restaurantName: restaurant.name,
-                restaurantIndex,
                 slots: null,
                 error: 'Failed to check availability',
                 loading: false,
             });
         }
-    }, [date, partySize, opt, restaurant.name, restaurantIndex, onResultUpdate]);
+    }, [date, partySize, opt, restaurant.name, onResultUpdate]);
 
     // Determine if we have availability to show
     const hasAvailability = availability && availability.length > 0;
