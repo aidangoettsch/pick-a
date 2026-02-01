@@ -62,8 +62,7 @@ def get_restaurants():
         results = [r for r in results if tag in r.get("tags", [])]
     
     if meal_types:
-        # Restaurant must have ALL selected meal types
-        results = [r for r in results if all(mt in r.get("meal_types", []) for mt in meal_types)]
+        results = [r for r in results if any(mt in r.get("meal_types", []) for mt in meal_types)]
     
     if search:
         results = [r for r in results if search in r.get("name", "").lower()]
