@@ -24,7 +24,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, flake-utils, pyproject-nix, uv2nix, pyproject-build-systems }:
+  outputs = { self, nixpkgs, flake-utils, pyproject-nix, uv2nix, pyproject-build-systems, fetchPnpmDeps, pnpmConfigHook }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
@@ -65,15 +65,15 @@
 
           nativeBuildInputs = [
             pkgs.nodejs_22
-            pkgs.pnpm.configHook
+            pnpmConfigHook
           ];
 
-          pnpmDeps = pkgs.pnpm.fetchDeps {
+          pnpmDeps = fetchPnpmDeps {
             pname = "pick-a-frontend";
             version = "0.1.0";
             src = ./frontend;
             fetcherVersion = 1;
-            hash = "sha256-0000000000000000000000000000000000000000000="; # Replace after first build
+            hash = "sha256-5HNAHQ3J6BWPB+HAbe+dUSz7pD7AEwb5Q46KGOx0ij8=";
           };
 
           buildPhase = ''
