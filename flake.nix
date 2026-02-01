@@ -39,12 +39,6 @@
               description = "The pick-a package to use.";
             };
 
-            port = lib.mkOption {
-              type = lib.types.port;
-              default = 5000;
-              description = "Port to listen on";
-            };
-
             openFirewall = lib.mkOption {
               type = lib.types.bool;
               default = false;
@@ -67,7 +61,7 @@
               };
             };
 
-            networking.firewall.allowedTCPPorts = lib.mkIf cfg.openFirewall [ cfg.port ];
+            networking.firewall.allowedTCPPorts = lib.mkIf cfg.openFirewall [ 5000 ];
           };
         };
     in
@@ -174,7 +168,7 @@
               --chdir "$out/lib/pick-a" \
               --set PYTHONPATH "$out/lib/pick-a" \
               --set STATIC_FOLDER "$out/lib/pick-a/static" \
-              --add-flags "-w 4 -b 0.0.0.0:${toString cfg.port} server:app"
+              --add-flags "-w 4 -b 0.0.0.0:5000 server:app"
 
             runHook postInstall
           '';
