@@ -18,7 +18,7 @@ function App() {
 
   // Current filter values
   const [search, setSearch] = useState('');
-  const [neighborhood, setNeighborhood] = useState('');
+  const [neighborhood, setNeighborhoods] = useState<string[]>([]);
   const [cuisine, setCuisine] = useState('');
   const [mealTypes, setMealTypes] = useState<string[]>([]);
 
@@ -50,7 +50,7 @@ function App() {
   const loadRestaurants = useCallback(async () => {
     const params = new URLSearchParams();
     if (debouncedSearch) params.set('search', debouncedSearch);
-    if (neighborhood) params.set('neighborhood', neighborhood);
+    if (neighborhoods) params.set('neighborhoods', neighborhoods);
     if (cuisine) params.set('tag', cuisine);
     // Send multiple meal_type params for multi-select
     mealTypes.forEach(mt => params.append('meal_type', mt));
@@ -64,7 +64,7 @@ function App() {
     } finally {
       setLoading(false);
     }
-  }, [debouncedSearch, neighborhood, cuisine, mealTypes]);
+  }, [debouncedSearch, neighborhoods, cuisine, mealTypes]);
 
   useEffect(() => {
     loadRestaurants();
@@ -85,14 +85,14 @@ function App() {
         <aside className="sidebar">
           <FilterPanel
             search={search}
-            neighborhood={neighborhood}
+            neighborhoods={neighborhoods}
             cuisine={cuisine}
             mealTypes={mealTypes}
-            neighborhoods={filterOptions.neighborhoods}
+            neighborhoodOptions={filterOptions.neighborhoods}
             cuisines={filterOptions.tags}
             mealTypeOptions={filterOptions.meal_types}
             onSearchChange={setSearch}
-            onNeighborhoodChange={setNeighborhood}
+            onNeighborhoodsChange={setNeighborhoods}
             onCuisineChange={setCuisine}
             onMealTypesChange={setMealTypes}
           />

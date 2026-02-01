@@ -48,15 +48,15 @@ def get_filters():
 @app.route("/api/restaurants", methods=["GET"])
 def get_restaurants():
     """Return filtered restaurant list."""
-    neighborhood = request.args.get("neighborhood", "").strip()
+    neighborhoods = request.args.get("neighborhoods", "").strip()
     tag = request.args.get("tag", "").strip()
     meal_types = request.args.getlist("meal_type")  # Support multiple meal types
     search = request.args.get("search", "").strip().lower()
     
     results = RESTAURANTS
     
-    if neighborhood:
-        results = [r for r in results if r.get("neighborhood") == neighborhood]
+    if neighborhoods:
+        results = [r for r in results if any(mt in r.get("neighborhood", []) for mt in neighborhoods]
     
     if tag:
         results = [r for r in results if tag in r.get("tags", [])]

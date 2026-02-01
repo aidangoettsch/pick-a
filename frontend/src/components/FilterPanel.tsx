@@ -2,14 +2,14 @@ import { Select, MultiSelect } from './Select';
 
 interface Props {
     search: string;
-    neighborhood: string;
+    neighborhoods: string[];
     cuisine: string;
     mealTypes: string[];
-    neighborhoods: string[];
+    neighborhoodOptions: string[];
     cuisines: string[];
     mealTypeOptions: string[];
     onSearchChange: (value: string) => void;
-    onNeighborhoodChange: (value: string) => void;
+    onNeighborhoodsChange: (value: string[]) => void;
     onCuisineChange: (value: string) => void;
     onMealTypesChange: (values: string[]) => void;
 }
@@ -23,7 +23,7 @@ export function FilterPanel({
     cuisines,
     mealTypeOptions,
     onSearchChange,
-    onNeighborhoodChange,
+    onNeighborhoodsChange,
     onCuisineChange,
     onMealTypesChange,
 }: Props) {
@@ -46,12 +46,12 @@ export function FilterPanel({
                 />
             </div>
 
-            <Select
-                id="neighborhood-select"
+            <MultiSelect
+                id="neighborhoods-select"
                 label="Neighborhood"
                 options={neighborhoodOptions}
-                value={neighborhood}
-                onChange={onNeighborhoodChange}
+                values={neighborhoods}
+                onChange={onNeighborhoodsChange}
                 placeholder="All Neighborhoods"
             />
 
