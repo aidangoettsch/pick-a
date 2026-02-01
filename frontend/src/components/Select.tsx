@@ -215,6 +215,33 @@ export function MultiSelect({ options, values, onChange, placeholder = 'Select..
 
             {isOpen && (
                 <div className="select-dropdown">
+                    {/* Select All / Deselect All toggle */}
+                    {filteredOptions.length > 0 && (
+                        <div
+                            className="select-option select-all"
+                            onClick={() => {
+                                const allFilteredValues = filteredOptions.map(o => o.value);
+                                const allSelected = allFilteredValues.every(v => values.includes(v));
+                                if (allSelected) {
+                                    // Deselect all filtered options
+                                    onChange(values.filter(v => !allFilteredValues.includes(v)));
+                                } else {
+                                    // Select all filtered options
+                                    const newValues = [...new Set([...values, ...allFilteredValues])];
+                                    onChange(newValues);
+                                }
+                            }}
+                        >
+                            <span className="checkbox">
+                                {filteredOptions.every(o => values.includes(o.value)) && (
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
+                                        <path d="M20 6 9 17l-5-5" />
+                                    </svg>
+                                )}
+                            </span>
+                            {filteredOptions.every(o => values.includes(o.value)) ? 'Deselect All' : 'Select All'}
+                        </div>
+                    )}
                     {filteredOptions.length > 0 ? (
                         filteredOptions.map(option => (
                             <div

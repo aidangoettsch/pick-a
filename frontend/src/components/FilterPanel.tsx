@@ -1,39 +1,42 @@
-import { Select, MultiSelect } from './Select';
+import { MultiSelect } from './Select';
 
 interface Props {
     search: string;
     neighborhoods: string[];
     boroughs: string[];
-    cuisine: string;
+    cuisines: string[];
     mealTypes: string[];
     neighborhoodOptions: string[];
     boroughOptions: string[];
-    cuisines: string[];
+    cuisineOptions: string[];
     mealTypeOptions: string[];
     onSearchChange: (value: string) => void;
     onNeighborhoodsChange: (value: string[]) => void;
     onBoroughsChange: (value: string[]) => void;
-    onCuisineChange: (value: string) => void;
+    onCuisinesChange: (value: string[]) => void;
     onMealTypesChange: (values: string[]) => void;
 }
 
 export function FilterPanel({
     search,
     neighborhoods,
-    cuisine,
+    boroughs,
+    cuisines,
     mealTypes,
     neighborhoodOptions,
-    cuisines,
+    boroughOptions,
+    cuisineOptions,
     mealTypeOptions,
     onSearchChange,
     onNeighborhoodsChange,
-    onCuisineChange,
+    onBoroughsChange,
+    onCuisinesChange,
     onMealTypesChange,
 }: Props) {
     const neighborhoodOptionsMapped = neighborhoodOptions.map(n => ({ value: n, label: n }));
     const boroughOptionsMapped = boroughOptions.map(b => ({ value: b, label: b }));
-    const cuisineOptions = cuisines.map(c => ({ value: c, label: c }));
-    const mealOptions = mealTypeOptions.map(m => ({ value: m, label: m }));
+    const cuisineOptionsMapped = cuisineOptions.map(c => ({ value: c, label: c }));
+    const mealOptionsMapped = mealTypeOptions.map(m => ({ value: m, label: m }));
 
     return (
         <div className="filter-section">
@@ -51,6 +54,15 @@ export function FilterPanel({
             </div>
 
             <MultiSelect
+                id="boroughs-select"
+                label="Borough"
+                options={boroughOptionsMapped}
+                values={boroughs}
+                onChange={onBoroughsChange}
+                placeholder="All Boroughs"
+            />
+
+            <MultiSelect
                 id="neighborhoods-select"
                 label="Neighborhood"
                 options={neighborhoodOptionsMapped}
@@ -60,27 +72,18 @@ export function FilterPanel({
             />
 
             <MultiSelect
-                id="boroughs-select"
-                label="Borough"
-                options={boroughOptionsMapped}
-                values={boroughs}
-                onChange={onCoroughsChange}
-                placeholder="All Boroughs"
-            />
-
-            <Select
                 id="cuisine-select"
                 label="Cuisine"
-                options={cuisineOptions}
-                value={cuisine}
-                onChange={onCuisineChange}
+                options={cuisineOptionsMapped}
+                values={cuisines}
+                onChange={onCuisinesChange}
                 placeholder="All Cuisines"
             />
 
             <MultiSelect
                 id="meal-select"
                 label="Meal Types"
-                options={mealOptions}
+                options={mealOptionsMapped}
                 values={mealTypes}
                 onChange={onMealTypesChange}
                 placeholder="All Meals"

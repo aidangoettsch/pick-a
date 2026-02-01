@@ -177,6 +177,17 @@
     font-size: 0.9rem;
 }
 
+/* Select All option styling */
+.select-option.select-all {
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 600;
+    color: var(--accent-secondary);
+}
+
+.select-option.select-all:hover {
+    background: rgba(124, 58, 237, 0.1);
+}
+
 /* Multi-select specific */
 .multi-values {
     display: flex;

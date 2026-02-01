@@ -26,16 +26,19 @@ def find_availability_resy_venue_id(venue_id: int, date: str, party_size: int) -
     }, headers=HEADERS)
 
     data = res.json()
+    venues = data["results"]["venues"] 
+    if len(venues) == 0:
+        return RestaurantResult(slots=[])
 
-    venue_results = data["results"]["venues"][0]
+    venue_results = venues[0]
     slots = [parse_resy_slot(s) for s in venue_results["slots"]]
 
     return RestaurantResult(slots=slots)
 
 def get_venue_id(resy_page: str) -> int:
     url = urlparse(resy_page)
-    matches = re.match("/cities/(.*)/venues/(.*)", url.path)
-    city, slug = matches.groups()
+    matches = re.match("/cities/([^/]*)/(venues/)?([^/]*)/?", url.path)
+    city, _, slug = matches.groups()
 
     res = requests.request("GET", f"https://api.resy.com/3/venue?url_slug={slug}&location={city}", headers=HEADERS)
 

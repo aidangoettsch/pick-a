@@ -7,6 +7,7 @@ export interface ReservationOption {
 export interface Restaurant {
     name: string;
     neighborhood: string;
+    borough: string;
     tags: string[];
     meal_types: string[];
     reservation_option: ReservationOption;
@@ -14,6 +15,7 @@ export interface Restaurant {
 
 export interface FilterOptions {
     neighborhoods: string[];
+    boroughs: string[];
     tags: string[];
     meal_types: string[];
 }
